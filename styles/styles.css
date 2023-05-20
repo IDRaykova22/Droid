@@ -1,6 +1,21 @@
+body, *{
+    margin:0;
+}
 ::selection{
     background-color: black;
     color: white;
+}
+.navbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 129px;
+    width: 98%;
+    left: 1px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3.2px);
 }
 .navbar>a{
     font-family: 'Bayon';
