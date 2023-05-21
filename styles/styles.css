@@ -1,5 +1,6 @@
 body, *{
     margin:0;
+    background: #F0F0F0;
 }
 ::selection{
     background-color: black;
@@ -66,7 +67,7 @@ body, *{
     width: 108px;
     height: 46px;
     left: 8.688rem;
-    top: 1rem;
+    top: 2.8rem;
     
     font-family: 'Audiowide';
     font-style: normal;
@@ -129,3 +130,75 @@ body, *{
     left: 30px;
     top: 13px;
 }
+.info>h1{
+    position: absolute;
+    width: 770px;
+    height: 102px;
+    left: 78px;
+    top: 268px;
+
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 126px;
+
+    color: #000000;
+
+}
+.clear{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 126px;
+    
+    -webkit-text-stroke: 1px black;
+    color:rgba(255, 255, 255, 0);
+}
+.info>p{
+    position: absolute;
+    width: 725px;
+    height: 151px;
+    left: 78px;
+    top: 406px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #000000;
+}
+.info>button{
+    box-sizing: border-box;
+
+position: absolute;
+width: 352px;
+height: 95px;
+left: 239px;
+top: 620px;
+
+background: rgba(0, 0, 0, 0.11);
+border: 3px solid #00000070;
+
+cursor: pointer;
+
+border-radius: 85px;
+
+font-family: 'Bayon';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 76px;
+text-align: center;
+color: #000000;
+}
+.explore.dot{position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 393px;
+    top: 963px;
+    
+    background: #000000;}
