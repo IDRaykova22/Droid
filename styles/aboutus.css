@@ -131,7 +131,7 @@ body, *{
     left: 30px;
     top: 13px;
 }
-.heading {
+.introt {
     position: absolute;
     width: 411.3px;
     height: 85.88px;
@@ -146,7 +146,7 @@ body, *{
     display: inline;
 }
 
-.heading2 {
+.introt2 {
     font-weight: 600;
     font-size: 64.2697px;
     line-height: 83.88px;
@@ -155,4 +155,19 @@ body, *{
 
     border-bottom: 7px solid #000000;
     display: inline;
+}
+.heading{
+    position: absolute;
+width: 760px;
+height: 400px;
+left: calc(50% - 760px/2 - 393px);
+top: 346px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: bolder;
+font-size: 100px;
+line-height: 169px;
+
+color: #000000;
 }
