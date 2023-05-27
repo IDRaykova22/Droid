@@ -1,6 +1,7 @@
 body, *{
     margin:0;
     background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
 }
 ::selection{
     background-color: black;
@@ -19,7 +20,6 @@ body, *{
     backdrop-filter: blur(3.2px);
 }
 .navbar>a{
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 37px;
@@ -71,7 +71,6 @@ body, *{
     left: 8.688rem;
     top: 2.8rem;
     
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -131,4 +130,29 @@ body, *{
     height: 32px;
     left: 30px;
     top: 13px;
+}
+.heading {
+    position: absolute;
+    width: 411.3px;
+    height: 85.88px;
+    left: calc(50% - 411.3px/2 - 641.99px);
+    top: 172px;
+    
+    font-weight: 600;
+    font-size: 64.2697px;
+    line-height: 83.88px;
+
+    border-bottom: 7px solid #000000;
+    display: inline;
+}
+
+.heading2 {
+    font-weight: 600;
+    font-size: 64.2697px;
+    line-height: 83.88px;
+
+    color: #005E6A;
+
+    border-bottom: 7px solid #000000;
+    display: inline;
 }
