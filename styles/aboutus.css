@@ -62,6 +62,8 @@ body, *{
     position: absolute;
     left: 3.2rem;
     top: 2.8rem;
+
+    user-select: none;
 }
 .logotext /*Droid*/
 {
@@ -175,6 +177,7 @@ body, *{
 }
 .introimage{
     user-select: none;
+
     position: absolute;
     width: 1250px;
     height: 705px;
