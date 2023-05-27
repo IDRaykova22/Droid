@@ -158,16 +158,36 @@ body, *{
 }
 .heading{
     position: absolute;
-width: 760px;
-height: 400px;
-left: calc(50% - 760px/2 - 393px);
-top: 346px;
+    width: 760px;
+    height: 400px;
+    left: calc(50% - 760px/2 - 393px);
+    top: 346px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: bolder;
-font-size: 100px;
-line-height: 169px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 100px;
+    line-height: 169px;
 
-color: #000000;
+    color: #000000;
+
+    background-color: transparent;
+}
+.introimage{
+    position: absolute;
+    width: 1250px;
+    height: 705px;
+    left: 552px;
+    top: 182px;
+
+    border-radius: 19px;
+}
+.background{
+    position: absolute;
+    width: 1902px;
+    height: 3658.19px;
+    left: 0px;
+    top: 853px;
+
+    background: linear-gradient(180deg, #F0F0F0 -8.66%, rgba(68, 234, 255, 0.3) 12.19%);
 }
