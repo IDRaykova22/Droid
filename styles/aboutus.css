@@ -1,5 +1,6 @@
 body, *{
     margin:0;
+    background-color: #F0F0F0;
 }
 ::selection{
     background-color: black;
@@ -51,6 +52,7 @@ body, *{
 {
     width: 60px; /* Adjust the width and height as needed */
     height: 55px;
+    background-color: transparent;
     border-radius: 50%;
     object-fit: cover;
     border: none;
