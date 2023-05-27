@@ -195,3 +195,12 @@ body, *{
 
     background: linear-gradient(180deg, #F0F0F0 -8.66%, rgba(68, 234, 255, 0.3) 12.19%);
 }
+.separator{
+    position: absolute;
+    width: 1754px;
+    height: 0px;
+    left: 85px;
+    top: 1043px;
+
+    border: 1px solid #000000;
+}
