@@ -212,4 +212,6 @@ body, *{
     top: 1175px;
 
     background-color: transparent;
+
+    user-select: none;
 }
