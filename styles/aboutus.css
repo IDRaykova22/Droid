@@ -215,3 +215,35 @@ body, *{
 
     user-select: none;
 }
+.history{
+    position: absolute;
+    width: 447.53px;
+    height: 237px;
+    left: 738px;
+    top: 1159px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+
+    background-color: transparent;
+}
+.history2{
+    position: absolute;
+    width: 448px;
+    height: 322px;
+    left: 738px;
+    top: 1468px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+
+    background-color: transparent;
+}
