@@ -222,8 +222,6 @@ body, *{
     left: 738px;
     top: 1159px;
 
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 33px;
@@ -238,9 +236,44 @@ body, *{
     left: 738px;
     top: 1468px;
 
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+
+    background-color: transparent;
+}
+q{
+    position: absolute;
+    width: 441px;
+    height: 327px;
+    left: 1298px;
+    top: 1249px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+
+    background-color: transparent;
+}
+.qseparator{
+    position: absolute;
+    width: 440px;
+    height: 0px;
+    left: 1291px;
+    top: 1602px;
+
+    border: 1.5px solid #A2B3B6;
+}
+.qafter{
+    position: absolute;
+    width: 440px;
+    height: 97px;
+    left: 1291px;
+    top: 1632px;
+
+    font-weight: 600;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.03em;
