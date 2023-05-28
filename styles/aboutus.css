@@ -192,18 +192,18 @@ body, *{
 }
 .background {
     position: absolute;
-    width: 188.5546806642623vh;
+    width: 100%;
     height: 363.0596292172044vh;
-    left: 0vh;
+    left: 0%;
     top: 84.70778836930368vh;
     background: linear-gradient(180deg, #F0F0F0 -0.8567674576412984vh, rgba(68, 234, 255, 0.3) 1.2095955389773055vh);
 }
 
 .separator {
     position: absolute;
-    width: 174.05881035971746vh;
-    height: 0vh;
-    left: 8.43668093385214vh;
+    width: 100%;
+    height: 0%;
+    left: 0%;
     top: 103.58614666038323vh;
     border: 0.09930486593843098vh solid #000000;
 }
