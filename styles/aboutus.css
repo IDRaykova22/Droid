@@ -204,3 +204,12 @@ body, *{
 
     border: 1px solid #000000;
 }
+.ghlogo{
+    position: absolute;
+    width: 668px;
+    height: 376px;
+    left: -19px;
+    top: 1175px;
+
+    background-color: transparent;
+}
