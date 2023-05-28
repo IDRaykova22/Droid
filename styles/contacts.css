@@ -1,0 +1,237 @@
+body, *{
+    margin:0;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 12.810327706057597vh;
+    width: 98%;
+    left: 0.09930486593843098vh;
+    top: 0vh;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(0.31777557100297915vh);
+}
+.navbar > a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.669415938919237vh; /* 37px */
+    white-space: nowrap; /* Da sedqt na edin red */
+    line-height: 6.648619472678868vh; /* 67px */
+    text-decoration: none;
+    color: #000000;
+
+    position: relative;
+}
+.navbar>a::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 0.19860973187686196vh;
+      border-radius: 0.3972194637537239vh;
+      background-color: #18272F;
+      bottom: 0.9930486593843099vh;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+    .navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+.logo /*Droid Logo*/
+{
+    width: 5.958291956305859vh;
+    height: 5.461767626613704vh;
+    background-color: transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    transform: rotate(180deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    position: absolute;
+    left: 5.084409136047666vh;
+    top: 4.448857994041708vh;
+
+    user-select: none;
+}
+.logotext /*Droid*/
+{
+    position: absolute;
+    width: 10.724925521350546vh;
+    height: 4.568023833167826vh;
+    left: 13.804170804369415vh;
+    top: 4.448857994041708vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5749751737835154vh;
+    line-height: 4.568023833167826vh;
+
+    user-select: none;    
+    
+    color: #000000;
+}
+.navbar>:nth-child(2) /*About Us*/
+{
+    position: absolute;
+    width: 125px;
+    height: 67px;
+    left: 34.75rem;
+    top: 2.438rem;
+}
+.navbar>:nth-child(3) /*Contacts*/
+{
+    position: absolute;
+    width: 130px;
+    height: 67px;
+    left: 50.188rem;
+    top: 2.438rem;
+}
+.navbar>:nth-child(4) /*Products*/
+{
+    position: absolute;
+    width: 8.375rem;
+    height: 4.188rem;
+    left: 65.625rem;
+    top: 2.438rem;
+}
+    .socialmedias{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 17.185929648241206vh;
+        height: 6.231155778894473vh;
+        left: 160.50251256281408vh;
+        top: 3.919597989949749vh;
+    
+        background: rgba(214, 214, 214, 0.33);
+        border: 2px solid #000000;
+        backdrop-filter: blur(1.0251256281407033vh);
+    
+        border-radius: 31px;
+    }
+    .facebook{
+        position: absolute;
+        height: 3.2160804020100504vh;
+        left: 10.050251256281408vh;
+        top: 1.306532663316583vh;
+    }
+    .instagram{
+        position: absolute;
+        height: 3.2160804020100504vh;
+        left: 3.0150753768844223vh;
+        top: 1.306532663316583vh;
+    }
+.c1{
+/* Ellipse 1 */
+position: absolute;
+width: 80px;
+height: 80px;
+border-radius: 80px;
+left: 55px;
+top: 300px;
+
+background: rgba(0, 209, 255, 0.85);
+}
+.c2{
+    /* Ellipse 2 */
+
+position: absolute;
+width: 150px;
+height: 150px;
+border-radius: 150px;
+left: 374px;
+top: 443px;
+
+background: rgba(0, 209, 255, 0.85);
+
+}
+.c3{
+    /* Ellipse 3 */
+
+position: absolute;
+width: 125px;
+height: 125px;
+border-radius: 125px;
+left: 60px;
+top: 700px;
+
+background: rgba(0, 209, 255, 0.85);
+
+}
+.c4{
+/* Ellipse 4 */
+
+position: absolute;
+width: 190px;
+height: 190px;
+border-radius: 190px;
+left: 682px;
+top: 138px;
+
+background: #0096AA;
+
+}
+.c5{
+/* Ellipse 5 */
+
+position: absolute;
+width: 145px;
+height: 145px;
+border-radius: 145px;
+left: 1014px;
+top: 502px;
+
+background: #0096AA;
+
+}
+.c6{
+/* Ellipse 6 */
+
+position: absolute;
+width: 110px;
+height: 110px;
+border-radius: 110px;
+left: 721px;
+top: 600px;
+
+background: #0096AA;
+
+}
+.c7{
+/* Ellipse 7 */
+
+position: absolute;
+width: 195px;
+height: 195px;
+border-radius: 195px;
+left: 1368px;
+top: 502px;
+
+background: #00BCD4;
+
+}
+.c8{
+/* Ellipse 8 */
+
+position: absolute;
+width: 160px;
+height: 160px;
+border-radius: 160px;
+left: 1729px;
+top: 785px;
+
+background: #00BCD4;
+
+}
