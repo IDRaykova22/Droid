@@ -227,3 +227,97 @@ body, *{
             background: none;
             color: #000000;
        }
+       .c4{
+            /* Ellipse 3 */
+            position: absolute;
+            width: 205px;
+            height: 205px;
+            border-radius: 205px;
+            left: 682px;
+            top: 125px;
+
+            background: #0096AA;
+        }
+        .c5{
+          /* Ellipse 5 */
+          position: absolute;
+          width: 176px;
+          height: 176px;
+          border-radius: 176px;
+          left: 1014px;
+          top: 502px;
+
+          background: #0096AA;  
+        }
+        .c6{
+            /* Ellipse 8 */
+            position: absolute;
+            width: 133px;
+            height: 126px;
+            border-radius: 126px;
+            left: 721px;
+            top: 574px;
+
+            background: #0096AA;
+        }
+        .a2{
+            /* Rectangle 3 */
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 556px;
+            left: 771px;
+            top: 176px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid #000000;
+            backdrop-filter: blur(38.075px);
+            /* Note: backdrop-filter has minimal browser support */
+
+            border-radius: 41px;
+        }
+        .k2{
+            /* email krug */
+            box-sizing: border-box;
+            position: absolute;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            left: 865px;
+            top: 209px;
+            border: 3px solid #167FBA;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            backdrop-filter: blur(3.4px);
+            /* Note: backdrop-filter has minimal browser support */
+        }
+        .E-mail1{
+            /* E-mail */
+            position: absolute;
+            width: 144px;
+            height: 50px;
+            left: 893px;
+            top: 381px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
+
+            background: none;
+            color: #000000;
+        }
+        .E-mail2{
+            /* Droid@codingburgas.bg */
+            position: absolute;
+            width: 260px;
+            height: 25px;
+            left: 821px;
+            top: 454px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+
+            background: none;
+            color: #000000;
+        }
