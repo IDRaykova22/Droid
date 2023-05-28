@@ -321,3 +321,99 @@ body, *{
             background: none;
             color: #000000;
         }
+        .c7{
+        /* Ellipse 10 */
+        position: absolute;
+        width: 116px;
+        height: 116px;
+        border-radius: 116px;
+        left: 1729px;
+        top: 444px;
+
+        background: #00BCD4;
+        }
+        .c8{
+            /* Ellipse 7 */
+            position: absolute;
+            width: 209px;
+            height: 209px;
+            border-radius: 209px;
+            left: 1368px;
+            top: 502px;
+
+            background: #00BCD4;
+        }
+        .c9{
+            /* Ellipse 4 */
+            position: absolute;
+            width: 176px;
+            height: 176px;
+            border-radius: 176px;
+            left: 1729px;
+            top: 785px;
+
+            background: #00BCD4;
+        }
+        .a3{
+            /* Rectangle 2 */
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 556px;
+            left: 1448px;
+            top: 335px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid #000000;
+            backdrop-filter: blur(38.075px);
+            /* Note: backdrop-filter has minimal browser support */
+
+            border-radius: 41px;
+        }
+        .k3{
+            /* phone krug */
+            box-sizing: border-box;
+            position: absolute;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            left: 1542px;
+            top: 368px;
+
+            border: 3px solid #167FBA;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            backdrop-filter: blur(3.4px);
+            /* Note: backdrop-filter has minimal browser support */
+        }
+        .Phone1{
+            /* Phone */
+            position: absolute;
+            width: 117px;
+            height: 50px;
+            left: 1577px;
+            top: 540px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
+
+            background: none;
+            color: #000000;
+        }
+        .Phone2{
+            /* 087 708 6622 */
+            position: absolute;
+            width: 169px;
+            height: 40px;
+            left: 1560px;
+            top: 613px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+
+            background: none;
+            color: #000000;
+
+        }
