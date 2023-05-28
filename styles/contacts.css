@@ -1,7 +1,6 @@
 body, *{
     margin:0;
     background-color: #F0F0F0;
-    font-family: 'Poppins', sans-serif;
 }
 ::selection{
     background-color: black;
@@ -11,33 +10,33 @@ body, *{
     box-sizing: border-box;
 
     position: absolute;
-    height: 12.810327706057597vh;
+    height: 129px;
     width: 98%;
-    left: 0.09930486593843098vh;
-    top: 0vh;
+    left: 1px;
+    top: 0px;
     background: rgba(255, 255, 255, 0.01);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(0.31777557100297915vh);
+    backdrop-filter: blur(3.2px);
 }
-.navbar > a {
+.navbar>a{
+    font-family: 'Bayon';
     font-style: normal;
     font-weight: 400;
-    font-size: 3.669415938919237vh; /* 37px */
-    white-space: nowrap; /* Da sedqt na edin red */
-    line-height: 6.648619472678868vh; /* 67px */
+    font-size: 37px;
+    line-height: 67px;
     text-decoration: none;
     color: #000000;
-
+    
     position: relative;
-}
+} 
 .navbar>a::before {
       content: '';
       position: absolute;
       width: 100%;
-      height: 0.19860973187686196vh;
-      border-radius: 0.3972194637537239vh;
+      height: 2px;
+      border-radius: 4px;
       background-color: #18272F;
-      bottom: 0.9930486593843099vh;
+      bottom: 10px;
       left: 0;
       transform-origin: right;
       transform: scaleX(0);
@@ -50,9 +49,8 @@ body, *{
   }
 .logo /*Droid Logo*/
 {
-    width: 5.958291956305859vh;
-    height: 5.461767626613704vh;
-    background-color: transparent;
+    width: 60px; /* Adjust the width and height as needed */
+    height: 55px;
     border-radius: 50%;
     object-fit: cover;
     border: none;
@@ -60,23 +58,22 @@ body, *{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     position: absolute;
-    left: 5.084409136047666vh;
-    top: 4.448857994041708vh;
-
-    user-select: none;
+    left: 3.2rem;
+    top: 2.8rem;
 }
 .logotext /*Droid*/
 {
     position: absolute;
-    width: 10.724925521350546vh;
-    height: 4.568023833167826vh;
-    left: 13.804170804369415vh;
-    top: 4.448857994041708vh;
+    width: 108px;
+    height: 46px;
+    left: 8.688rem;
+    top: 2.8rem;
     
+    font-family: 'Audiowide';
     font-style: normal;
     font-weight: 400;
-    font-size: 3.5749751737835154vh;
-    line-height: 4.568023833167826vh;
+    font-size: 36px;
+    line-height: 46px;
 
     user-select: none;    
     
@@ -106,132 +103,127 @@ body, *{
     left: 65.625rem;
     top: 2.438rem;
 }
-    .socialmedias{
-        box-sizing: border-box;
-    
-        position: absolute;
-        width: 17.185929648241206vh;
-        height: 6.231155778894473vh;
-        left: 160.50251256281408vh;
-        top: 3.919597989949749vh;
-    
-        background: rgba(214, 214, 214, 0.33);
-        border: 2px solid #000000;
-        backdrop-filter: blur(1.0251256281407033vh);
-    
-        border-radius: 31px;
-    }
-    .facebook{
-        position: absolute;
-        height: 3.2160804020100504vh;
-        left: 10.050251256281408vh;
-        top: 1.306532663316583vh;
-    }
-    .instagram{
-        position: absolute;
-        height: 3.2160804020100504vh;
-        left: 3.0150753768844223vh;
-        top: 1.306532663316583vh;
-    }
+.socialmedias{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 171px;
+    height: 62px;
+    left: 1597px;
+    top: 39px;
+
+    background: rgba(214, 214, 214, 0.33);
+    border: 2px solid #000000;
+    backdrop-filter: blur(10.2px);
+
+    border-radius: 31px;
+}
+.facebook{
+    position: absolute;
+    height: 32px;
+    left: 100px;
+    top: 13px;
+}
+.instagram{
+    position: absolute;
+    height: 32px;
+    left: 30px;
+    top: 13px;
+}
 .c1{
-/* Ellipse 1 */
-position: absolute;
-width: 80px;
-height: 80px;
-border-radius: 80px;
-left: 55px;
-top: 300px;
+        /* Ellipse 1 */
+        position: absolute;
+        width: 93px;
+        height: 93px;
+        border-radius: 93px;
+        left: 78px;
+        top: 372px;
+        
+        background: rgba(0, 209, 255, 0.85);
+        }
+        
+        .c2{
+            /* Ellipse 6 */
+            position: absolute;
+            width: 201px;
+            height: 201px;
+            border-radius: 201px;
+            left: 383px;
+            top: 454px;
 
-background: rgba(0, 209, 255, 0.85);
-}
-.c2{
-    /* Ellipse 2 */
+            background: rgba(0, 209, 255, 0.85);
+        }
+        .c3{
+            /* Ellipse 2 */
+            position: absolute;
+            width: 147px;
+            height: 147px;
+            border-radius: 147px;
+            left: 66px;
+            top: 799px;
 
-position: absolute;
-width: 150px;
-height: 150px;
-border-radius: 150px;
-left: 374px;
-top: 443px;
+            background: rgba(0, 209, 255, 0.85);
+        }
+        .a1{
+            /* Rectangle 1 */
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 556px;
+            left: 117px;
+            top: 335px;
 
-background: rgba(0, 209, 255, 0.85);
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid #000000;
+            backdrop-filter: blur(38.075px);
+            /* Note: backdrop-filter has minimal browser support */
 
-}
-.c3{
-    /* Ellipse 3 */
+            border-radius: 41px;
+        }
+        .k1{
+            /* Ellipse 1 */
+            box-sizing: border-box;
+            position: absolute;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            left: 211px;
+            top: 368px;
 
-position: absolute;
-width: 125px;
-height: 125px;
-border-radius: 125px;
-left: 60px;
-top: 700px;
+            border: 3px solid #167FBA;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            backdrop-filter: blur(3.4px);
+            /* Note: backdrop-filter has minimal browser support */
+        }
+        .adr1{
+            /* Address */
+            position: absolute;
+            width: 205px;
+            height: 50px;
+            left: 224px;
+            top: 540px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
 
-background: rgba(0, 209, 255, 0.85);
+            background: none;
+            color: #000000;
+        }
+        .adr2{
+            /* zh.k. Meden rudnik, 8009 Захари Стоянов, Burgas */
+            position: absolute;
+            width: 278px;
+            height: 54px;
+            left: 158px;
+            top: 613px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
 
-}
-.c4{
-/* Ellipse 4 */
-
-position: absolute;
-width: 190px;
-height: 190px;
-border-radius: 190px;
-left: 682px;
-top: 138px;
-
-background: #0096AA;
-
-}
-.c5{
-/* Ellipse 5 */
-
-position: absolute;
-width: 145px;
-height: 145px;
-border-radius: 145px;
-left: 1014px;
-top: 502px;
-
-background: #0096AA;
-
-}
-.c6{
-/* Ellipse 6 */
-
-position: absolute;
-width: 110px;
-height: 110px;
-border-radius: 110px;
-left: 721px;
-top: 600px;
-
-background: #0096AA;
-
-}
-.c7{
-/* Ellipse 7 */
-
-position: absolute;
-width: 195px;
-height: 195px;
-border-radius: 195px;
-left: 1368px;
-top: 502px;
-
-background: #00BCD4;
-
-}
-.c8{
-/* Ellipse 8 */
-
-position: absolute;
-width: 160px;
-height: 160px;
-border-radius: 160px;
-left: 1729px;
-top: 785px;
-
-background: #00BCD4;
-
-}
+            background: none;
+            color: #000000;
+       }
