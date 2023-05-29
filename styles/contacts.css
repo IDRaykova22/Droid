@@ -133,292 +133,273 @@ body, *{
     left: 3.0150753768844223vh;
     top: 1.306532663316583vh;
 }
-.c1{
-        /* Ellipse 1 */
-        position: absolute;
-        width: 93px;
-        height: 93px;
-        border-radius: 93px;
-        left: 6%;
-        top: 40%;
+.circle1{
+    /* Ellipse 1 */
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    border-radius: 93px;
+    left: 6%;
+    top: 40%;
+     
+    background: rgba(0, 209, 255, 0.85);
+}
         
-        background: rgba(0, 209, 255, 0.85);
-        }
-        
-        .c2{
-            /* Ellipse 6 */
-            position: absolute;
-            width: 201px;
-            height: 201px;
-            border-radius: 201px;
-            left: 25%;
-            top: 50%;
+.circle2{
+    /* Ellipse 6 */
+    position: absolute;
+    width: 201px;
+    height: 201px;
+    border-radius: 201px;
+    left: 25%;
+    top: 50%;
 
-            background: rgba(0, 209, 255, 0.85);
-        }
-        .c3{
-            /* Ellipse 2 */
-            position: absolute;
-            width: 147px;
-            height: 147px;
-            border-radius: 147px;
-            left: 4%;
-            top: 80%;
+    background: rgba(0, 209, 255, 0.85);
+}
+.circle3{
+    /* Ellipse 2 */
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    border-radius: 147px;
+    left: 4%;
+    top: 80%;
 
-            background: rgba(0, 209, 255, 0.85);
-        }
-        .a1{
-            /* Rectangle 1 */
-            box-sizing: border-box;
-            position: absolute;
-            width: 360px;
-            height: 556px;
-            left: 7%;
-            top: 34%;
+    background: rgba(0, 209, 255, 0.85);
+}
+.rectangle1{
+    /* Rectangle 1 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 360px;
+    height: 556px;
+    left: 7%;
+    top: 34%;
 
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid #000000;
-            backdrop-filter: blur(38.075px);
-            /* Note: backdrop-filter has minimal browser support */
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #000000;
+    backdrop-filter: blur(38.075px);
+    /* Note: backdrop-filter has minimal browser support */
 
-            border-radius: 41px;
-        }
-        .k1{
-            /* Ellipse 1 */
-            box-sizing: border-box;
-            position: absolute;
-            width: 172px;
-            height: 172px;
-            border-radius: 172px;
-            left: 211px;
-            top: 368px;
+    border-radius: 41px;
+}
+.circle_rectangle1{
+    /* Ellipse 1 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    left: 211px;
+    top: 368px;
 
-            border: 3px solid #167FBA;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            backdrop-filter: blur(3.4px);
-            /* Note: backdrop-filter has minimal browser support */
-        }
-        .adr1{
-            /* Address */
-            position: absolute;
-            width: 205px;
-            height: 50px;
-            left: 224px;
-            top: 540px;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
+    border: 3px solid #167FBA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(3.4px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+.address{
+    /* Address */
+    position: absolute;
+    width: 205px;
+    height: 50px;
+    left: 224px;
+    top: 540px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
 
-            background: none;
-            color: #000000;
-        }
-        .adr2{
-            /* zh.k. Meden rudnik, 8009 Захари Стоянов, Burgas */
-            position: absolute;
-            width: 278px;
-            height: 54px;
-            left: 158px;
-            top: 613px;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
+    background: none;
+    color: #000000;
+}
+.address_live{
+    /* zh.k. Meden rudnik, 8009 Захари Стоянов, Burgas */
+    position: absolute;
+    width: 278px;
+    height: 54px;
+    left: 158px;
+    top: 613px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
 
-            background: none;
-            color: #000000;
-       }
-       .c4{
-            /* Ellipse 3 */
-            position: absolute;
-            width: 205px;
-            height: 205px;
-            border-radius: 205px;
-            left: 682px;
-            top: 125px;
+    background: none;
+    color: #000000;
+}
+.circle4{
+    /* Ellipse 3 */
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    border-radius: 205px;
+    left: 660px;
+    top: 125px;
 
-            background: #0096AA;
-        }
-        .c5{
-          /* Ellipse 5 */
-          position: absolute;
-          width: 176px;
-          height: 176px;
-          border-radius: 176px;
-          left: 1014px;
-          top: 502px;
+    background: #0096AA;
+}
+.circle5{
+    /* Ellipse 5 */
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    border-radius: 176px;
+    left: 940px;
+    top: 502px;
 
-          background: #0096AA;  
-        }
-        .c6{
-            /* Ellipse 8 */
-            position: absolute;
-            width: 133px;
-            height: 126px;
-            border-radius: 126px;
-            left: 721px;
-            top: 574px;
+    background: #0096AA;  
+}
+.circle6{
+    /* Ellipse 8 */
+    position: absolute;
+    width: 133px;
+    height: 126px;
+    border-radius: 126px;
+    left: 680px;
+    top: 630px;
 
-            background: #0096AA;
-        }
-        .a2{
-            /* Rectangle 3 */
-            box-sizing: border-box;
-            position: absolute;
-            width: 360px;
-            height: 556px;
-            left: 43%;
-            top: 176px;
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid #000000;
-            backdrop-filter: blur(38.075px);
-            /* Note: backdrop-filter has minimal browser support */
+    background: #0096AA;
+}
+.rectangle2{
+    /* Rectangle 3 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 360px;
+    height: 556px;
+    left: 40%;
+    top: 176px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #000000;
+    backdrop-filter: blur(38.075px);
+    /* Note: backdrop-filter has minimal browser support */
 
-            border-radius: 41px;
-        }
-        .k2{
-            /* email krug */
-            box-sizing: border-box;
-            position: absolute;
-            width: 172px;
-            height: 172px;
-            border-radius: 172px;
-            left: 49%;
-            top: 209px;
-            border: 3px solid #167FBA;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            backdrop-filter: blur(3.4px);
-            /* Note: backdrop-filter has minimal browser support */
-        }
-        .E-mail1{
-            /* E-mail */
-            position: absolute;
-            width: 144px;
-            height: 50px;
-            left: 51%;
-            top: 381px;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
+    border-radius: 41px;
+}
+.circle_rectangle2{
+    /* email krug */
+    box-sizing: border-box;
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    left: 46%;
+    top: 209px;
+    border: 3px solid #167FBA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(3.4px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+.E-mail{
+    /* E-mail */
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 48%;
+    top: 381px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
 
-            background: none;
-            color: #000000;
-        }
-        .E-mail2{
-            /* Droid@codingburgas.bg */
-            position: absolute;
-            width: 260px;
-            height: 25px;
-            left: 46%;
-            top: 454px;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
+    background: none;
+    color: #000000;
+}
+.E-mail_address{
+    /* Droid@codingburgas.bg */
+    position: absolute;
+    width: 260px;
+    height: 25px;
+    left: 42.5%;
+    top: 454px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
 
-            background: none;
-            color: #000000;
-        }
-        .c7{
-        /* Ellipse 10 */
-        position: absolute;
-        width: 116px;
-        height: 116px;
-        border-radius: 116px;
-        left: 93%;
-        top: 40%;
+    background: none;
+    color: #000000;
+}
+.circle7{
+    /* Ellipse 10 */
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border-radius: 116px;
+    left: 91%;
+    top: 40%;
 
-        background: #00BCD4;
-        }
-        .c8{
-            /* Ellipse 7 */
-            position: absolute;
-            width: 209px;
-            height: 209px;
-            border-radius: 209px;
-            left: 75%;
-            top: 60%;
+    background: #00BCD4;
+}
+.circle8{
+    /* Ellipse 7 */
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    border-radius: 209px;
+    left: 70%;
+    top: 60%;
 
-            background: #00BCD4;
-        }
-        .c9{
-            /* Ellipse 4 */
-            position: absolute;
-            width: 176px;
-            height: 176px;
-            border-radius: 176px;
-            left: 89%;
-            top: 80%;
+    background: #00BCD4;
+    top: 335px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #000000;
+    backdrop-filter: blur(38.075px);
+    /* Note: backdrop-filter has minimal browser support */
 
-            background: #00BCD4;
-        }
-        .a3{
-            /* Rectangle 2 */
-            box-sizing: border-box;
-            position: absolute;
-            width: 360px;
-            height: 556px;
-            left: 76%;
-            top: 335px;
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid #000000;
-            backdrop-filter: blur(38.075px);
-            /* Note: backdrop-filter has minimal browser support */
+    border-radius: 41px;
+}
+.circle_rectangle3{
+    /* phone krug */
+    box-sizing: border-box;
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    left: 78%;
+    top: 40%;
 
-            border-radius: 41px;
-        }
-        .k3{
-            /* phone krug */
-            box-sizing: border-box;
-            position: absolute;
-            width: 172px;
-            height: 172px;
-            border-radius: 172px;
-            left: 82%;
-            top: 40%;
+    border: 3px solid #167FBA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(3.4px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+.phone{
+    /* Phone */
+    position: absolute;
+    width: 117px;
+    height: 50px;
+    left: 80%;
+    top: 59%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
 
-            border: 3px solid #167FBA;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            backdrop-filter: blur(3.4px);
-            /* Note: backdrop-filter has minimal browser support */
-        }
-        .Phone1{
-            /* Phone */
-            position: absolute;
-            width: 117px;
-            height: 50px;
-            left: 84%;
-            top: 59%;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
+    background: none;
+    color: #000000;
+}
+.phone_number{
+    /* 087 708 6622 */
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    left: 79%;
+    top: 67%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
 
-            background: none;
-            color: #000000;
-        }
-        .Phone2{
-            /* 087 708 6622 */
-            position: absolute;
-            width: 169px;
-            height: 40px;
-            left: 83%;
-            top: 67%;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
-
-            background: none;
-            color: #000000;
-        }
-        span{
-            background: none;
-        }
+    background: none;
+    color: #000000;
+}
+span{
+    background: none;
+}
