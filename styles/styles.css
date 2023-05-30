@@ -1,6 +1,7 @@
 body, *{
     margin:0;
     background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
 }
 ::selection{
     background-color: black;
@@ -19,13 +20,13 @@ body, *{
     backdrop-filter: blur(3.2px);
 }
 .navbar>a{
-    font-family: 'Bayon';
     font-style: normal;
     font-weight: 400;
     font-size: 37px;
     line-height: 67px;
     text-decoration: none;
     color: #000000;
+    white-space: nowrap; /* Da sedqt na edin red */
     
     position: relative;
 } 
@@ -69,7 +70,6 @@ body, *{
     left: 8.688rem;
     top: 2.8rem;
     
-    font-family: 'Audiowide';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -137,7 +137,6 @@ body, *{
     left: 78px;
     top: 268px;
 
-    font-family: 'Koulen';
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -147,7 +146,6 @@ body, *{
 
 }
 .clear{
-    font-family: 'Koulen';
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -163,7 +161,6 @@ body, *{
     left: 78px;
     top: 406px;
 
-    font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -187,7 +184,6 @@ cursor: pointer;
 
 border-radius: 85px;
 
-font-family: 'Bayon';
 font-style: normal;
 font-weight: 400;
 font-size: 42px;
