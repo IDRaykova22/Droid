@@ -150,7 +150,7 @@ body, *{
     background-color: transparent;
 }
 
-.introt2 {
+.intro-text-2 {
     font-weight: 600;
     font-size: 6.382293942403178vh;
     line-height: 8.329692154915591vh;
@@ -179,7 +179,7 @@ body, *{
 
     background-color: transparent;
 }
-.introimage{
+.intro-image{
     user-select: none;
 
     position: absolute;
@@ -208,7 +208,7 @@ body, *{
     border: 0.09930486593843098vh solid #000000;
 }
 
-.ghlogo {
+.github-logo {
     position: absolute;
     width: 66.3356504468719vh;
     height: 37.33862959285005vh;
@@ -217,7 +217,7 @@ body, *{
     background-color: transparent;
     user-select: none;
 }
-.history {
+.droid-history {
     position: absolute;
     width: 44.54878371982934vh;
     height: 23.550674847698744vh;
@@ -232,7 +232,7 @@ body, *{
     background-color: transparent;
     }
     
-.history2 {
+.full-droid-history {
     position: absolute;
     width: 44.54390243902439vh;
     height: 31.951219512195124vh;
@@ -257,7 +257,7 @@ q {
     background-color: transparent;
     }
     
-.qseparator {
+.quoate-separator {
     position: absolute;
     width: 43.75941463414634vh;
     height: 0vh;
@@ -266,7 +266,7 @@ q {
     border: 0.14835782822206697vh solid #A2B3B6;
     }
     
-.qafter {
+.quoate-after {
     position: absolute;
     width: 43.75941463414634vh;
     height: 9.61972479015882vh;
