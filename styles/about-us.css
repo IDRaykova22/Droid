@@ -1,0 +1,280 @@
+body, *{
+    margin:0;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 12.810327706057597vh;
+    width: 98%;
+    left: 0.09930486593843098vh;
+    top: 0vh;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(0.31777557100297915vh);
+}
+.navbar > a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.669415938919237vh; /* 37px */
+    white-space: nowrap; /* Da sedqt na edin red */
+    line-height: 6.648619472678868vh; /* 67px */
+    text-decoration: none;
+    color: #000000;
+
+    position: relative;
+}
+.navbar>a::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 0.19860973187686196vh;
+      border-radius: 0.3972194637537239vh;
+      background-color: #18272F;
+      bottom: 0.9930486593843099vh;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+    .navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+.logo /*Droid Logo*/
+{
+    width: 5.958291956305859vh;
+    height: 5.461767626613704vh;
+    background-color: transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    transform: rotate(180deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    position: absolute;
+    left: 5.084409136047666vh;
+    top: 4.448857994041708vh;
+
+    user-select: none;
+}
+.logotext /*Droid*/
+{
+    position: absolute;
+    width: 10.724925521350546vh;
+    height: 4.568023833167826vh;
+    left: 13.804170804369415vh;
+    top: 4.448857994041708vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5749751737835154vh;
+    line-height: 4.568023833167826vh;
+
+    user-select: none;    
+    
+    color: #000000;
+}
+.navbar>:nth-child(2) /*About Us*/
+{
+    position: absolute;
+    width: 125px;
+    height: 67px;
+    left: 34.75rem;
+    top: 2.438rem;
+}
+.navbar>:nth-child(3) /*Contacts*/
+{
+    position: absolute;
+    width: 130px;
+    height: 67px;
+    left: 50.188rem;
+    top: 2.438rem;
+}
+.navbar>:nth-child(4) /*Products*/
+{
+    position: absolute;
+    width: 8.375rem;
+    height: 4.188rem;
+    left: 65.625rem;
+    top: 2.438rem;
+}
+.socialmedias{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 17.185929648241206vh;
+    height: 6.231155778894473vh;
+    left: 160.50251256281408vh;
+    top: 3.919597989949749vh;
+
+    background: rgba(214, 214, 214, 0.33);
+    border: 2px solid #000000;
+    backdrop-filter: blur(1.0251256281407033vh);
+
+    border-radius: 31px;
+}
+.facebook{
+    position: absolute;
+    height: 3.2160804020100504vh;
+    left: 10.050251256281408vh;
+    top: 1.306532663316583vh;
+}
+.instagram{
+    position: absolute;
+    height: 3.2160804020100504vh;
+    left: 3.0150753768844223vh;
+    top: 1.306532663316583vh;
+}
+.introt {
+    position: absolute;
+    width: 40.84409136047666vh;
+    height: 8.528301886792454vh;
+    left: calc(50% - 411.3px/2 - 641.99px);
+    top: 17.080436941410127vh;
+    
+    font-weight: 600;
+    font-size: 6.382224428997022vH;
+    line-height: 8.329692154915591vh;
+
+    border-bottom: 0.6951340615690169vh solid #000000;
+    display: inline;
+
+    background-color: transparent;
+}
+
+.introt2 {
+    font-weight: 600;
+    font-size: 6.382293942403178vh;
+    line-height: 8.329692154915591vh;
+
+    color: #005E6A;
+
+    border-bottom: 0.6951340615690169vh solid #000000;
+    display: inline;
+    
+    background-color: transparent;
+}
+.heading{
+    position: absolute;
+    width: 75.47169811320755vh;
+    height: 39.72194637537239vh;
+    left: calc(50% - 87.45684695051784vh/2 - 45.22439585730725vh);
+    top: 34.35948361469712vh;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 9.930486593843098vh;
+    line-height: 16.782522343594835vh;
+
+    color: #000000;
+
+    background-color: transparent;
+}
+.introimage{
+    user-select: none;
+
+    position: absolute;
+    width: 124.13108242303873vh;
+    height: 70.00993048659384vh;
+    left: 54.8162859980139vh;
+    top: 18.073485600794438vh;
+
+    border-radius: 19px;
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 363.0596292172044vh;
+    left: 0%;
+    top: 84.70778836930368vh;
+    background: linear-gradient(180deg, #F0F0F0 -0.8567674576412984vh, rgba(68, 234, 255, 0.3) 1.2095955389773055vh);
+}
+
+.separator {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    left: 0%;
+    top: 103.58614666038323vh;
+    border: 0.09930486593843098vh solid #000000;
+}
+
+.ghlogo {
+    position: absolute;
+    width: 66.3356504468719vh;
+    height: 37.33862959285005vh;
+    left: -1.8867924528301887vh;
+    top: 116.6832174776564vh;
+    background-color: transparent;
+    user-select: none;
+}
+.history {
+    position: absolute;
+    width: 44.54878371982934vh;
+    height: 23.550674847698744vh;
+    left: 73.2941730891936vh;
+    top: 115.04349338044547vh;
+
+    font-weight: 300;
+    font-size: 2.185067083645618vh;
+    line-height: 3.267803255468427vh;
+    letter-spacing: 0.002970002067650354vh;
+
+    background-color: transparent;
+    }
+    
+.history2 {
+    position: absolute;
+    width: 44.54390243902439vh;
+    height: 31.951219512195124vh;
+    left: 73.2941730891936vh;
+    top: 145.64821124424448vh;
+    font-weight: 300;
+    font-size: 2.185067083645618vh;
+    line-height: 3.267803255468427vh;
+    letter-spacing: 0.002970002067650354vh;
+    background-color: transparent;
+    }
+q {
+    position: absolute;
+    width: 43.85243902439025vh;
+    height: 32.446341463414636vh;
+    left: 129.15967508085956vh;
+    top: 123.70454349338044vh;
+    font-weight: 600;
+    font-size: 2.185067083645618vh;
+    line-height: 3.267803255468427vh;
+    letter-spacing: 0.002970002067650354vh;
+    background-color: transparent;
+    }
+    
+.qseparator {
+    position: absolute;
+    width: 43.75941463414634vh;
+    height: 0vh;
+    left: 128.22055649230857vh;
+    top: 159.20225473907377vh;
+    border: 0.14835782822206697vh solid #A2B3B6;
+    }
+    
+.qafter {
+    position: absolute;
+    width: 43.75941463414634vh;
+    height: 9.61972479015882vh;
+    left: 128.22055649230857vh;
+    top: 162.2312340795104vh;
+    font-weight: 600;
+    font-size: 2.185067083645618vh;
+    line-height: 3.267803255468427vh;
+    letter-spacing: 0.002970002067650354vh;
+    background-color: transparent;
+    }
