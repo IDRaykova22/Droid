@@ -1,405 +1,512 @@
-body, *{
-    margin:0;
-    background-color: #F0F0F0;
-    font-family: 'Poppins', sans-serif;
-}
-::selection{
-    background-color: black;
-    color: white;
-}
-.navbar{
-    box-sizing: border-box;
+        body, *{
+            margin:0;
+            background-color: #F0F0F0;
+            font-family: 'Poppins', sans-serif;
+        }
 
-    position: absolute;
-    height: 12.810327706057597vh;
-    width: 98%;
-    left: 0.09930486593843098vh;
-    top: 0vh;
-    background: rgba(255, 255, 255, 0.01);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(0.31777557100297915vh);
-}
-.navbar > a {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.669415938919237vh; /* 37px */
-    white-space: nowrap; /* Da sedqt na edin red */
-    line-height: 6.648619472678868vh; /* 67px */
-    text-decoration: none;
-    color: #000000;
 
-    position: relative;
-}
-.navbar>a::before {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 0.19860973187686196vh;
-      border-radius: 0.3972194637537239vh;
-      background-color: #18272F;
-      bottom: 0.9930486593843099vh;
-      left: 0;
-      transform-origin: right;
-      transform: scaleX(0);
-      transition: transform .3s ease-in-out;
-    }
+        ::selection{
+            background-color: black;
+            color: white;
+        }
+
+
+        .navbar{
+            box-sizing: border-box;
+
+            position: absolute;
+            height: 129px;
+            width: 98%;
+            left: 1px;
+            top: 0px;
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(3.2px);
+        }
+
+
+        .navbar>a{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 37px;
+            white-space: nowrap; /*da sa na edin red*/
+            line-height: 67px;
+            text-decoration: none;
+            color: #000000;
+    
+            position: relative;
+        } 
+
+
+        .navbar>a::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                border-radius: 4px;
+                background-color: #18272F;
+                bottom: 10px;
+                left: 0;
+                transform-origin: right;
+                transform: scaleX(0);
+                transition: transform .3s ease-in-out;
+        }
   
-    .navbar>a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  }
-.logo /*Droid Logo*/
-{
-    width: 5.958291956305859vh;
-    height: 5.461767626613704vh;
-    background-color: transparent;
-    border-radius: 50%;
-    object-fit: cover;
-    border: none;
-    transform: rotate(180deg);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        .navbar>a:hover::before {
+            transform-origin: left;
+            transform: scaleX(1);
+        }
 
-    position: absolute;
-    left: 5.084409136047666vh;
-    top: 4.448857994041708vh;
 
-    user-select: none;
-}
-.logotext /*Droid*/
-{
-    position: absolute;
-    width: 10.724925521350546vh;
-    height: 4.568023833167826vh;
-    left: 13.804170804369415vh;
-    top: 4.448857994041708vh;
+        .logo /*Droid Logo*/
+        {
+            width: 60px; /* Adjust the width and height as needed */
+            height: 55px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: none;
+            transform: rotate(180deg);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+            position: absolute;
+            left: 3.2rem;
+            top: 2.8rem;
+        }
+
+
+        .logotext /*Droid*/
+        {
+            position: absolute;
+            width: 108px;
+            height: 46px;
+            left: 8.688rem;
+            top: 2.8rem;
     
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.5749751737835154vh;
-    line-height: 4.568023833167826vh;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 46px;
 
-    user-select: none;    
+            user-select: none;    
     
-    color: #000000;
-}
-.navbar>:nth-child(2) /*About Us*/
-{
-    position: absolute;
-    width: 125px;
-    height: 67px;
-    left: 34.75rem;
-    top: 2.438rem;
-}
-.navbar>:nth-child(3) /*Contacts*/
-{
-    position: absolute;
-    width: 130px;
-    height: 67px;
-    left: 50.188rem;
-    top: 2.438rem;
-}
-.navbar>:nth-child(4) /*Products*/
-{
-    position: absolute;
-    width: 8.375rem;
-    height: 4.188rem;
-    left: 65.625rem;
-    top: 2.438rem;
-}
-.socialmedias{
-    box-sizing: border-box;
+            color: #000000;
+        }
 
-    position: absolute;
-    width: 17.185929648241206vh;
-    height: 6.231155778894473vh;
-    left: 160.50251256281408vh;
-    top: 3.919597989949749vh;
 
-    background: rgba(214, 214, 214, 0.33);
-    border: 2px solid #000000;
-    backdrop-filter: blur(1.0251256281407033vh);
+        .navbar>:nth-child(2) /*About Us*/
+        {
+            position: absolute;
+            width: 125px;
+            height: 67px;
+            left: 34.75rem;
+            top: 2.438rem;
+        }
 
-    border-radius: 31px;
-}
-.facebook{
-    position: absolute;
-    height: 3.2160804020100504vh;
-    left: 10.050251256281408vh;
-    top: 1.306532663316583vh;
-}
-.instagram{
-    position: absolute;
-    height: 3.2160804020100504vh;
-    left: 3.0150753768844223vh;
-    top: 1.306532663316583vh;
-}
-.circle1{
-    /* Ellipse 1 */
-    position: absolute;
-    width: 93px;
-    height: 93px;
-    border-radius: 93px;
-    left: 6%;
-    top: 40%;
-     
-    background: rgba(0, 209, 255, 0.85);
-}
+
+        .navbar>:nth-child(3) /*Contacts*/
+        {
+            position: absolute;
+            width: 130px;
+            height: 67px;
+            left: 50.188rem;
+            top: 2.438rem;
+        }
+
+
+        .navbar>:nth-child(4) /*Products*/
+        {
+            position: absolute;
+            width: 8.375rem;
+            height: 4.188rem;
+            left: 65.625rem;
+            top: 2.438rem;
+        }
+
+
+        .socialmedias{
+            box-sizing: border-box;
+            position: absolute;
+            width: 171px;
+            height: 62px;
+            left: 1597px;
+            top: 39px;
+
+            background: rgba(214, 214, 214, 0.33);
+            border: 2px solid #000000;
+            backdrop-filter: blur(10.2px);
+
+            border-radius: 31px;
+        }
+
+
+        .facebook{
+            position: fixed;
+            height: 32px;
+            left: 100px;
+            top: 13px;
+        }
+
+
+        .instagram{
+            position: fixed;
+            height: 32px;
+            left: 30px;
+            top: 13px;
+        }  
+
+
+        .circle1{
+            position: fixed;
+            width: 93px;
+            height: 93px;
+            border-radius: 93px;
+            left: 78px;
+            top: 372px;
         
-.circle2{
-    /* Ellipse 6 */
-    position: absolute;
-    width: 201px;
-    height: 201px;
-    border-radius: 201px;
-    left: 25%;
-    top: 50%;
+            background: rgba(0, 209, 255, 0.85);
+        }
+        
+        
+        
+        .circle2{
+            position: fixed;
+            width: 201px;
+            height: 201px;
+            border-radius: 201px;
+            left: 383px;
+            top: 454px;
 
-    background: rgba(0, 209, 255, 0.85);
-}
-.circle3{
-    /* Ellipse 2 */
-    position: absolute;
-    width: 147px;
-    height: 147px;
-    border-radius: 147px;
-    left: 4%;
-    top: 80%;
+            background: rgba(0, 209, 255, 0.85);
+        }
+        
+        
+        .circle3{
+            position: fixed;
+            width: 147px;
+            height: 147px;
+            border-radius: 147px;
+            left: 66px;
+            top: 799px;
 
-    background: rgba(0, 209, 255, 0.85);
-}
-.rectangle1{
-    /* Rectangle 1 */
-    box-sizing: border-box;
-    position: absolute;
-    width: 360px;
-    height: 556px;
-    left: 7%;
-    top: 34%;
+            background: rgba(0, 209, 255, 0.85);
+        }
+        
+        
+        .rectangle1{
+            box-sizing: border-box;
+            position: fixed;
+            width: 360px;
+            height: 556px;
+            left: 117px;
+            top: 335px;
 
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid #000000;
-    backdrop-filter: blur(38.075px);
-    /* Note: backdrop-filter has minimal browser support */
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid #000000;
+            backdrop-filter: blur(38.075px);
 
-    border-radius: 41px;
-}
-.circle_rectangle1{
-    /* Ellipse 1 */
-    box-sizing: border-box;
-    position: absolute;
-    width: 172px;
-    height: 172px;
-    border-radius: 172px;
-    left: 211px;
-    top: 368px;
+            border-radius: 41px;
+        }
+        
+        
+        .circle_rectangle1{
+            box-sizing: border-box;
+            position: fixed;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            left: 211px;
+            top: 368px;
 
-    border: 3px solid #167FBA;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    backdrop-filter: blur(3.4px);
-    /* Note: backdrop-filter has minimal browser support */
-}
-.address{
-    /* Address */
-    position: absolute;
-    width: 205px;
-    height: 50px;
-    left: 224px;
-    top: 540px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
+            border: 3px solid #167FBA;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            backdrop-filter: blur(3.4px);
+        }
+        
+        
+        .address{
+            position: fixed;
+            width: 205px;
+            height: 50px;
+            left: 240px;
+            top: 540px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
 
-    background: none;
-    color: #000000;
-}
-.address_live{
-    /* zh.k. Meden rudnik, 8009 Захари Стоянов, Burgas */
-    position: absolute;
-    width: 278px;
-    height: 54px;
-    left: 158px;
-    top: 613px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
+            background: none;
+            color: #000000;
+        }
+        
+        
+        .address_live{
+            position: fixed;
+            width: 278px;
+            height: 54px;
+            left: 175px;
+            top: 613px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
 
-    background: none;
-    color: #000000;
-}
-.circle4{
-    /* Ellipse 3 */
-    position: absolute;
-    width: 205px;
-    height: 205px;
-    border-radius: 205px;
-    left: 660px;
-    top: 125px;
+            background: none;
+            color: #000000;
+       }
+       
+       
+        .circle4{
+            position: fixed;
+            width: 205px;
+            height: 205px;
+            border-radius: 205px;
+            left: 682px;
+            top: 125px;
 
-    background: #0096AA;
-}
-.circle5{
-    /* Ellipse 5 */
-    position: absolute;
-    width: 176px;
-    height: 176px;
-    border-radius: 176px;
-    left: 940px;
-    top: 502px;
+            background: #0096AA;
+        }
+        
+        
+        .circle5{
+          position: fixed;
+          width: 176px;
+          height: 176px;
+          border-radius: 176px;
+          left: 1014px;
+          top: 502px;
 
-    background: #0096AA;  
-}
-.circle6{
-    /* Ellipse 8 */
-    position: absolute;
-    width: 133px;
-    height: 126px;
-    border-radius: 126px;
-    left: 680px;
-    top: 630px;
+          background: #0096AA;  
+        }
+        
+        
+        .circle6{
+            position: fixed;
+            width: 133px;
+            height: 126px;
+            border-radius: 126px;
+            left: 721px;
+            top: 574px;
 
-    background: #0096AA;
-}
-.rectangle2{
-    /* Rectangle 3 */
-    box-sizing: border-box;
-    position: absolute;
-    width: 360px;
-    height: 556px;
-    left: 40%;
-    top: 176px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid #000000;
-    backdrop-filter: blur(38.075px);
-    /* Note: backdrop-filter has minimal browser support */
+            background: #0096AA;
+        }
+        
+        
+        .rectangle2{
+            box-sizing: border-box;
+            position: fixed;
+            width: 360px;
+            height: 556px;
+            left: 771px;
+            top: 176px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid #000000;
+            backdrop-filter: blur(38.075px);
 
-    border-radius: 41px;
-}
-.circle_rectangle2{
-    /* email krug */
-    box-sizing: border-box;
-    position: absolute;
-    width: 172px;
-    height: 172px;
-    border-radius: 172px;
-    left: 46%;
-    top: 209px;
-    border: 3px solid #167FBA;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    backdrop-filter: blur(3.4px);
-    /* Note: backdrop-filter has minimal browser support */
-}
-.E-mail{
-    /* E-mail */
-    position: absolute;
-    width: 144px;
-    height: 50px;
-    left: 48%;
-    top: 381px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
+            border-radius: 41px;
+        }
+        
+        
+        .circle_rectangle2{
+            box-sizing: border-box;
+            position: fixed;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            left: 865px;
+            top: 209px;
+            border: 3px solid #167FBA;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            backdrop-filter: blur(3.4px);
+        }
+        
+        
+        .E-mail{
+            position: fixed;
+            width: 144px;
+            height: 50px;
+            left: 905px;
+            top: 381px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
 
-    background: none;
-    color: #000000;
-}
-.E-mail_address{
-    /* Droid@codingburgas.bg */
-    position: absolute;
-    width: 260px;
-    height: 25px;
-    left: 42.5%;
-    top: 454px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
+            background: none;
+            color: #000000;
+        }
+        
+        
+        .E-mail_address{
+            position: fixed;
+            width: 260px;
+            height: 25px;
+            left: 870px;
+            top: 451px;
+            font-style: normal;
+            font-weight: 350;
+            font-size: 22px;
+            line-height: 33px;
 
-    background: none;
-    color: #000000;
-}
-.circle7{
-    /* Ellipse 10 */
-    position: absolute;
-    width: 116px;
-    height: 116px;
-    border-radius: 116px;
-    left: 91%;
-    top: 40%;
+            background: none;
+            color: #000000;
+        }
+        
+        
+        .circle7{
+        position: fixed;
+        width: 116px;
+        height: 116px;
+        border-radius: 116px;
+        left: 1729px;
+        top: 444px;
 
-    background: #00BCD4;
-}
-.circle8{
-    /* Ellipse 7 */
-    position: absolute;
-    width: 209px;
-    height: 209px;
-    border-radius: 209px;
-    left: 70%;
-    top: 60%;
+        background: #00BCD4;
+        }
+        
+        
+        .circle8{
+            position: fixed;
+            width: 209px;
+            height: 209px;
+            border-radius: 209px;
+            left: 1368px;
+            top: 502px;
 
-    background: #00BCD4;
-    top: 335px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid #000000;
-    backdrop-filter: blur(38.075px);
-    /* Note: backdrop-filter has minimal browser support */
+            background: #00BCD4;
+        }
+        
+        
+        .circle9{
+            position: fixed;
+            width: 176px;
+            height: 176px;
+            border-radius: 176px;
+            left: 1729px;
+            top: 785px;
 
-    border-radius: 41px;
-}
-.circle_rectangle3{
-    /* phone krug */
-    box-sizing: border-box;
-    position: absolute;
-    width: 172px;
-    height: 172px;
-    border-radius: 172px;
-    left: 78%;
-    top: 40%;
+            background: #00BCD4;
+        }
+        
+        
+        .rectangle3{
+            box-sizing: border-box;
+            position: fixed;
+            width: 360px;
+            height: 556px;
+            left: 1448px;
+            top: 335px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid #000000;
+            backdrop-filter: blur(38.075px);
 
-    border: 3px solid #167FBA;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    backdrop-filter: blur(3.4px);
-    /* Note: backdrop-filter has minimal browser support */
-}
-.phone{
-    /* Phone */
-    position: absolute;
-    width: 117px;
-    height: 50px;
-    left: 80%;
-    top: 59%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
+            border-radius: 41px;
+        }
+        
+        
+        .circle_rectangle3{
+            box-sizing: border-box;
+            position: fixed;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            left: 1542px;
+            top: 368px;
 
-    background: none;
-    color: #000000;
-}
-.phone_number{
-    /* 087 708 6622 */
-    position: absolute;
-    width: 169px;
-    height: 40px;
-    left: 79%;
-    top: 67%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
+            border: 3px solid #167FBA;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            backdrop-filter: blur(3.4px);
+        }
+        
+        
+        .Phone{
+            position: fixed;
+            width: 117px;
+            height: 50px;
+            left: 1590px;
+            top: 540px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
 
-    background: none;
-    color: #000000;
-}
-span{
-    background: none;
-}
+            background: none;
+            color: #000000;
+        }
+        
+        
+        .phone_number{
+            position: fixed;
+            width: 169px;
+            height: 40px;
+            left: 1575px;
+            top: 613px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+
+            background: none;
+            color: #000000;
+
+        }
+        
+        
+        .circle10{
+            position: fixed;
+            width: 67px;
+            height: 67px;
+            border-radius:67px;
+            left: 851px;
+            top: 839px;
+
+            background: rgba(69, 178, 225, 0.85);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+        
+        
+        .circle11{
+            position: fixed;
+            width: 54px;
+            height: 54px;
+            border-radius: 54px;
+            left: 1024px;
+            top: 889px;
+
+            background: rgba(0, 169, 191, 0.49);
+        }
+        
+        
+        .rectangle4{
+            box-sizing: border-box;
+            position: fixed;
+            width: 303px;
+            height: 79px;
+            left: 799px;
+            top: 851px;
+
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid #000000;
+            backdrop-filter: blur(22.5px);
+            border-radius: 22px;
+        }
+        
+        
+        .ContactUs{
+            position: fixed;
+            width: 200px;
+            height: 37px;
+            left: 865px;
+            top: 866px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 54px;
+
+           color: #000000;
+           background: none;
+        }
+
+        span{
+            background: none;
+        }
