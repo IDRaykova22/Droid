@@ -151,12 +151,22 @@ body, *{
     border-radius: 40px;
 }
 .medicine-block{
-
     position: fixed;
     width: 532px;
     height: 332px;
     left: 245px;
     top: 223px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+.medicine-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
 }
 .education-block{
     position: fixed;
@@ -164,6 +174,18 @@ body, *{
     height: 332px;
     left: 1143px;
     top: 223px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+.education-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
 }
 .tourism-block{
     position: fixed;
@@ -171,6 +193,18 @@ body, *{
     height: 332px;
     left: 245px;
     top: 583px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+.tourism-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
 }
 .custom-block{
     position: fixed;
@@ -178,4 +212,15 @@ body, *{
     height: 332px;
     left: 1143px;
     top: 583px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+.custom-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
 }
