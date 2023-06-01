@@ -143,7 +143,7 @@ body, *{
     position: fixed;
     width: 1238px;
     height: 1238px;
-    left: -629px;
+    left: -829px;
     top: 461px;
     
     background: rgba(8, 131, 149, 0.3);
@@ -154,10 +154,29 @@ body, *{
     position: fixed;
     width: 1238px;
     height: 838px;
-    left: 2202px;
-    top: -619px;
+    left: 2402px;
+    top: -700px;
 
     background: rgba(0, 209, 255, 0.52);
     mix-blend-mode: hard-light;
     filter: blur(250px);
+}
+#heading{
+    position: absolute;
+    width: 716px;
+    height: 208px;
+    left: 78px;
+    top: 268px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+}
+.clear{
+    font-family: 'Poppins', sans-serif;
+    
+    color : transparent;
+    -webkit-text-stroke: 1px #005E6A; 
 }
