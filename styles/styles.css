@@ -214,3 +214,12 @@ body, *{
 
     cursor: pointer;
 }
+.droid{
+    position: fixed;
+    width: 530px;
+    height: 877px;
+    left: 987px;
+    top: 123px;
+    filter: brightness(130%);
+    background-color: transparent;
+}
