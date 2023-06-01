@@ -168,6 +168,15 @@ body, *{
     position: fixed;
     top: 270px;
 }
+.medicine-block>img{
+    background-color: transparent;
+
+    width: 257px;
+    height: 234px;
+
+    position: fixed;
+    top: 40px;
+}
 .education-block{
     position: fixed;
     width: 532px;
@@ -186,6 +195,15 @@ body, *{
     background-color: transparent;
     position: fixed;
     top: 270px;
+}
+.education-block>img{
+    background-color: transparent;
+
+    width: 246.5px;
+    height: 253px;
+
+    position: fixed;
+    top: 30px;
 }
 .tourism-block{
     position: fixed;
@@ -206,6 +224,15 @@ body, *{
     position: fixed;
     top: 270px;
 }
+.tourism-block>img{
+    background-color: transparent;
+
+    width: 249.5px;
+    height: 249px;
+
+    position: fixed;
+    top: 20px;
+}
 .custom-block{
     position: fixed;
     width: 532px;
@@ -223,4 +250,13 @@ body, *{
     background-color: transparent;
     position: fixed;
     top: 270px;
+}
+.custom-block>img{
+    background-color: transparent;
+
+    width: 367px;
+    height: 274px;
+
+    position: fixed;
+    top: 30px;
 }
