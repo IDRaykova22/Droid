@@ -7,6 +7,9 @@ body, *{
     background-color: black;
     color: white;
 }
+#no-background{
+    background-color: transparent;
+}
 .navbar{
     box-sizing: border-box;
 
@@ -63,7 +66,7 @@ body, *{
     left: 3.2rem;
     top: 2.8rem;
 }
-.logotext /*Droid*/
+.logo-text /*Droid*/
 {
     position: absolute;
     width: 108px;
@@ -131,89 +134,30 @@ body, *{
     left: 30px;
     top: 13px;
 }
-.info>h1{
-    position: absolute;
-    width: 770px;
-    height: 102px;
-    left: 78px;
-    top: 268px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 126px;
-
-    color: #000000;
-
+.index-background{
+    margin: auto;
 }
-.clear{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 126px;
+#background-decoration-left
+{
+    position: fixed;
+    width: 1238px;
+    height: 1238px;
+    left: -629px;
+    top: 461px;
     
-    -webkit-text-stroke: 1px black;
-    color:rgba(255, 255, 255, 0);
+    background: rgba(8, 131, 149, 0.3);
+    mix-blend-mode: hard-light;
+    filter: blur(250px);
 }
-.info>p{
-    position: absolute;
-    width: 725px;
-    height: 151px;
-    left: 78px;
-    top: 406px;
+#background-decoration-right{
+    position: fixed;
+    width: 1238px;
+    height: 838px;
+    left: 2202px;
+    top: -619px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
-
-    color: #000000;
-}
-.takealook{
-    box-sizing: border-box;
-
-position: absolute;
-width: 352px;
-height: 95px;
-left: 239px;
-top: 620px;
-
-background: rgba(0, 0, 0, 0.11);
-border: 3px solid #00000070;
-
-cursor: pointer;
-
-border-radius: 85px;
-
-font-style: normal;
-font-weight: 400;
-font-size: 42px;
-line-height: 76px;
-text-align: center;
-color: #000000;
-}
-.explore{
-    position: absolute;
-    width: 69px;
-    height: 69px;
-    left: 383px;
-    top: 885px;
-
-    cursor:pointer;
-
-    background: #000000;
-
-    border-radius: 50%;
-    border:none;
-}
-.icon{
-    width: 39px;
-    height: 39px;
-
-    position: absolute;
-    left: 383px;
-    top: 885px;
-
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: rgba(0, 209, 255, 0.52);
+    mix-blend-mode: hard-light;
+    filter: blur(250px);
 }
