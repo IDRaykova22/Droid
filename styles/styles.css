@@ -162,7 +162,7 @@ body, *{
     filter: blur(250px);
 }
 #heading{
-    position: absolute;
+    position: fixed;
     width: 716px;
     height: 208px;
     left: 78px;
@@ -179,4 +179,13 @@ body, *{
     
     color : transparent;
     -webkit-text-stroke: 1px #005E6A; 
+}
+.intro-info{
+    position: fixed;
+    width: 725px;
+    height: 151px;
+    left: 78px;
+    top: 506px;
+
+    font-size: 22px;
 }
