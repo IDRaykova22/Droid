@@ -189,3 +189,28 @@ body, *{
 
     font-size: 22px;
 }
+.explore-now{
+    position: fixed;
+    width: 256px;
+    height: 72px;
+    left: 300px;
+    top: 749px;
+
+    background: #83D0EA;
+    border-radius: 38px;
+    border: 6px solid #00B2C8;
+
+    /*Text style*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    letter-spacing: 0.96px;
+    
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
