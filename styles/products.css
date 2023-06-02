@@ -15,9 +15,7 @@ body, *{
     width: 98%;
     left: 1px;
     top: 0px;
-    background: rgba(255, 255, 255, 0.01);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(3.2px);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 }
 .navbar>a{
     font-style: normal;
@@ -29,6 +27,7 @@ body, *{
     color: #000000;
     
     position: relative;
+    background-color: transparent;
 } 
 .navbar>a::before {
       content: '';
@@ -42,11 +41,14 @@ body, *{
       transform-origin: right;
       transform: scaleX(0);
       transition: transform .3s ease-in-out;
+
+      background-color: transparent;
     }
   
     .navbar>a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+    background-color: transparent;
   }
 .logo /*Droid Logo*/
 {
@@ -81,6 +83,7 @@ body, *{
     user-select: none;    
     
     color: #000000;
+    background-color: transparent;
 }
 .navbar>:nth-child(2) /*About Us*/
 {
