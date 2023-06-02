@@ -248,3 +248,152 @@ line-height: 96px;
 
 color: #000000;
 }
+.rectangle{
+    position: absolute;
+    width: 1523px;
+    height: 1000px;
+    left: 187px;
+    top: 1979px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 94px;
+    }
+    .last-name{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    border-radius: 300px;
+    left: 950px;
+    top: 200px;
+        
+    background: #E1E1E1;
+    }
+    .first-name1{
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 180px;
+        top: 140px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 42px;
+        text-transform: uppercase;
+        
+        color: #ADADAD;
+        background: none;
+    }
+    .first-name-type{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    border-radius: 300px;
+    right: 910px;
+    top: 200px;
+    
+    background: #E1E1E1;
+    }
+    .last-name1{
+    position: absolute;
+    width: 166px;
+    height: 50px;
+    left: 960px;
+    top: 140px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    
+    color: #ADADAD;
+    background: none;
+    }
+    .Describe-your-order{
+    position: absolute;
+    width: 1272px;
+    height: 305px;
+    left: 150px;
+    top: 400px;
+    
+    background: #E1E1E1;
+    border-radius: 40px;
+    }
+    .Describe-your-order1{
+    position: absolute;
+    width: 320px;
+    height: 57px;
+    left: 170px;
+    top: 330px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    
+    color: #ADADAD;
+    background: none;
+    }
+    .Email{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    border-radius: 300px;
+    right: 910px;
+    top: 850px;
+        
+    background: #E1E1E1;
+    }
+    .Email1{
+    position: absolute;
+    width: 186px;
+    height: 50px;
+    left: 180px;
+    top: 780px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    
+    color: #ADADAD;
+    background: none;
+    }
+    .Phone-number{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    border-radius: 300px;
+    left: 960px;
+    top: 850px;
+        
+    background: #E1E1E1;
+    }
+    .Phone-number1{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 980px;
+    top: 780px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    
+    color: #ADADAD;
+    background: none;
+    }
+    span{
+        background: none;
+    }
