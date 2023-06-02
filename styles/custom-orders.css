@@ -168,6 +168,15 @@ line-height: 72px;
 
 color: #000000;
 }
+.settings-icon{
+position: absolute;
+width: 307px;
+height: 546px;
+left: 175px;
+top: 344px;
+filter: brightness(130%);
+background-color: transparent;
+}
 .text1{
 position: absolute;
 width: 1059px;
@@ -213,6 +222,16 @@ line-height: 72px;
 text-align: right;
 
 color: #000000;
+}
+.droid-factory{
+position: absolute;
+width: 999px;
+height: 708px;
+left: 820px;
+top: 985px;
+    
+filter: brightness(130%);
+border-radius: 55px;
 }
 .title3{
 position: absolute;
