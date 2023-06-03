@@ -521,3 +521,13 @@
             filter: brightness(130%);
             background: none;
         }
+        .mail{
+            position: absolute;
+            width: 106px;
+            height: 106px;
+            left: 898px;
+            top: 242px;
+
+            filter: brightness(130%);
+            background: none;
+        }
