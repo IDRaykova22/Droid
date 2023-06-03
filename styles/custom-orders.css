@@ -154,101 +154,101 @@ body, *{
     top: 13px;
 }
 .title{
-position: absolute;
-width: 617px;
-height: 94px;
-left: 117px;
-top: 199px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 72px;
-
-color: #000000;
-}
-.settings-icon{
-position: absolute;
-width: 307px;
-height: 546px;
-left: 175px;
-top: 344px;
-filter: brightness(130%);
-background-color: transparent;
-}
-.text1{
-position: absolute;
-width: 1059px;
-height: 420px;
-left: 557px;
-top: 365px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 60px;
-
-color: #000000;
-}
-.text2{
-position: absolute;
-width: 692px;
-height: 626px;
-left: 96px;
-top: 1012px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 60px;
-
-color: #000000;
-}
-.title2{
-position: absolute;
-width: 832px;
-height: 56px;
-left: 904px;
-top: 890px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 72px;
-text-align: right;
-
-color: #000000;
-}
-.droid-factory{
-position: absolute;
-width: 999px;
-height: 708px;
-left: 820px;
-top: 985px;
+    position: absolute;
+    width: 617px;
+    height: 94px;
+    left: 117px;
+    top: 199px;
     
-filter: brightness(130%);
-border-radius: 55px;
-}
-.title3{
-position: absolute;
-width: 1101px;
-height: 110px;
-left: 398px;
-top: 1803px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 96px;
-
-color: #000000;
-}
-.rectangle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    
+    color: #000000;
+    }
+    .settings-icon{
+    position: absolute;
+    width: 307px;
+    height: 546px;
+    left: 175px;
+    top: 344px;
+    filter: brightness(130%);
+    background-color: transparent;
+    }
+    .text1{
+    position: absolute;
+    width: 1059px;
+    height: 420px;
+    left: 557px;
+    top: 365px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    
+    color: #000000;
+    }
+    .text2{
+    position: absolute;
+    width: 692px;
+    height: 626px;
+    left: 96px;
+    top: 1012px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    
+    color: #000000;
+    }
+    .title2{
+    position: absolute;
+    width: 832px;
+    height: 56px;
+    left: 904px;
+    top: 890px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: right;
+    
+    color: #000000;
+    }
+    .droid-factory{
+    position: absolute;
+    width: 999px;
+    height: 708px;
+    left: 820px;
+    top: 985px;
+    
+    filter: brightness(130%);
+    border-radius: 55px;
+    }
+    .title3{
+    position: absolute;
+    width: 1101px;
+    height: 110px;
+    left: 398px;
+    top: 1803px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    
+    color: #000000;
+    }
+    .rectangle{
     position: absolute;
     width: 1523px;
     height: 1000px;
