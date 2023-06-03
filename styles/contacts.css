@@ -508,11 +508,15 @@
            color: #000000;
            background: none;
         }
+        
+        
         span{
             background: none;
         }
+        
+        
         .pin{
-            position: absolute;
+            position: fixed;
             width: 106px;
             height: 106px;
             left: 244px;
@@ -521,12 +525,26 @@
             filter: brightness(130%);
             background: none;
         }
+        
+        
         .mail{
-            position: absolute;
+            position: fixed;
             width: 106px;
             height: 106px;
             left: 898px;
             top: 242px;
+
+            filter: brightness(130%);
+            background: none;
+        }
+        
+        
+        .phone{
+            position: fixed;
+            width: 106px;
+            height: 106px;
+            left: 1575px;
+            top: 401px;
 
             filter: brightness(130%);
             background: none;
