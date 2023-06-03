@@ -511,3 +511,13 @@
         span{
             background: none;
         }
+        .pin{
+            position: absolute;
+            width: 106px;
+            height: 106px;
+            left: 244px;
+            top: 401px;
+
+            filter: brightness(130%);
+            background: none;
+        }
