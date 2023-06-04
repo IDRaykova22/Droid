@@ -370,3 +370,15 @@ left: 1395px;
 top: 652px;
 
 }
+.sunny-purchase{
+    position: absolute;
+    width: 553px;
+    height: 90px;
+    left: 1050px;
+    top: 780px;
+
+    background: #00BCD4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    border: none;
+}
