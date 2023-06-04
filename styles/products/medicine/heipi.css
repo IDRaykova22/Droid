@@ -292,7 +292,7 @@ body, *{
 
     user-select: none;
 }
-#sunny{
+#heipi{
     /* Rectangle 4375 */
 
 position: absolute;
@@ -306,7 +306,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 82px;
 }
 
-.sunny-productunny{
+.heipi-productunny{
 
 position: absolute;
 width: 740px;
@@ -318,19 +318,19 @@ filter: brightness(130%);
 background: none;
 }
 
-.sunny-product{
+.heipi-product{
 
 position: absolute;
 width: 740px;
-height: 440px;
-left: 30px;
-top: 170px;
+height: 690px;
+left: 10px;
+top: 50px;
 
 background-color: transparent;
 }
 
 h1{
-/* Terover */
+/* Heipi */
 
 position: absolute;
 width: 335px;
@@ -362,7 +362,7 @@ line-height: 36px;
 color: #000000;
 background: none;
 }
-.sunny-decoration{
+.heipi-decoration{
     position: absolute;
 width: 500px;
 height: 400px;
@@ -370,7 +370,7 @@ left: 1395px;
 top: 652px;
 
 }
-.sunny-purchase{
+.heipi-purchase{
     position: absolute;
     width: 553px;
     height: 90px;
