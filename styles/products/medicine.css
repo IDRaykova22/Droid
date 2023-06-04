@@ -10,7 +10,7 @@ body, *{
 .navbar{
     box-sizing: border-box;
 
-    position: absolute;
+    position: sticky;
     height: 129px;
     width: 98%;
     left: 1px;
@@ -26,12 +26,12 @@ body, *{
     text-decoration: none;
     color: #000000;
     
-    position: relative;
+    position: sticky;
     background-color: transparent;
 } 
 .navbar>a::before {
       content: '';
-      position: absolute;
+      position: sticky;
       width: 100%;
       height: 2px;
       border-radius: 4px;
@@ -59,9 +59,8 @@ body, *{
     object-fit: cover;
     border: none;
     transform: rotate(180deg);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    position: fixed;
+    position: absolute;
     left: 3.2rem;
     top: 2.8rem;
 
@@ -69,7 +68,7 @@ body, *{
 }
 .logotext /*Droid*/
 {
-    position: fixed;
+    position: absolute;
     width: 108px;
     height: 46px;
     left: 8.688rem;
@@ -87,7 +86,7 @@ body, *{
 }
 .navbar>:nth-child(2) /*About Us*/
 {
-    position: fixed;
+    position: absolute;
     width: 125px;
     height: 67px;
     left: 34.75rem;
@@ -95,7 +94,7 @@ body, *{
 }
 .navbar>:nth-child(3) /*Contacts*/
 {
-    position: fixed;
+    position: absolute;
     width: 130px;
     height: 67px;
     left: 50.188rem;
@@ -103,7 +102,7 @@ body, *{
 }
 .navbar>:nth-child(4) /*Products*/
 {
-    position: fixed;
+    position: sticky;
     width: 8.375rem;
     height: 4.188rem;
     left: 65.625rem;
@@ -112,7 +111,7 @@ body, *{
 .socialmedias{
     box-sizing: border-box;
 
-    position: fixed;
+    position: sticky;
     width: 171px;
     height: 62px;
     left: 1597px;
@@ -125,13 +124,13 @@ body, *{
     border-radius: 31px;
 }
 .facebook{
-    position: fixed;
+    position: sticky;
     height: 32px;
     left: 100px;
     top: 13px;
 }
 .instagram{
-    position: fixed;
+    position: sticky;
     height: 32px;
     left: 30px;
     top: 13px;
@@ -304,7 +303,7 @@ body, *{
 .navbar{
     box-sizing: border-box;
 
-    position: absolute;
+    position: sticky;
     height: 129px;
     width: 98%;
     left: 1px;
@@ -325,7 +324,7 @@ body, *{
 } 
 .navbar>a::before {
       content: '';
-      position: absolute;
+      position: sticky;
       width: 100%;
       height: 2px;
       border-radius: 4px;
@@ -430,214 +429,91 @@ body, *{
     left: 30px;
     top: 13px;
 }
-.pick-field{
-    position: fixed;
-    font-family: 'Poppins', sans-serif;
-    width: 296px;
-    height: 72px;
-    left: 814px;
-    top: 151px;
+.search-zone{
+    background: linear-gradient(180deg, #00A9BF 0%, rgba(112, 185, 194, 0.9) 55.04%, rgba(217, 217, 217, 0.1) 100%);
+    border: 1px solid #000000;
+    border-radius: 37px;
 
-    font-size: 52px;
+    position: absolute;
+    left: 44px;
+    top: 203px;
+    width: 429px;  
+    height: 740px;
 }
-#block{
-    background: #EEFCFF;
-    border: 1px solid rgba(7, 191, 237, 0.01);
-    backdrop-filter: blur(0.8px);
-
+.search-input{
+    background: #D9D9D9;
+    border: 1px solid #000000;
     border-radius: 40px;
-}
-.medicine-block{
+
+    font-size: 30px;
     position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 245px;
-    top: 223px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-.medicine-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.medicine-block>img{
-    background-color: transparent;
-
-    width: 257px;
-    height: 234px;
-
-    position: fixed;
-    top: 40px;
-}
-.education-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 1143px;
-    top: 223px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-
-}
-.education-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.education-block>img{
-    background-color: transparent;
-
-    width: 246.5px;
-    height: 253px;
-
-    position: fixed;
-    top: 30px;
-}
-.tourism-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 245px;
-    top: 583px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-
-}
-.tourism-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.tourism-block>img{
-    background-color: transparent;
-
-    width: 249.5px;
-    height: 249px;
-
-    position: fixed;
-    top: 20px;
-}
-.custom-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 1143px;
-    top: 583px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-.custom-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.custom-block>img{
-    background-color: transparent;
-
-    width: 367px;
-    height: 274px;
-
-    position: fixed;
-    top: 30px;
-}
-.products-decoration-left-circles{
-    position: fixed;
-    left: 0;
-    bottom: -10px;
-
-    background-color: transparent;
-    user-select: none;
-    background: none;
-}
-.medicine-link{
-    color:#000000;
-}
-.products-decoration-right-circles{
-    position: fixed;
-    right: 0;
-    top: -10px;
-    
-    background: none;
-    background-color: transparent;
-    user-select: none;
-}
-.wavy-line-left{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 240px;
-
-    user-select: none;
-}
-#container-products{
-    background: #FFFFFF;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 82px; 
-}
-.recbo{
-    position: absolute;
-    width: 488px;
-    height: 402px;
-    left: 557px;
-    top: 312px;
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.recbo-image{
-    height: 320px;
-    width: 320px;
-
-    background-color: transparent;
-
-    user-select: none;
-}
-.rectangle-1{
-    position: absolute;
-    width: 400px;
-    height: 70px;
-    border-radius: 70px;
-    left: 595px;
-    top: 735px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.RecBo-title{
-    position: absolute;
-    width: 470px;
-    height: 56px;
-    left: calc(50% - 470px/2 - 114px);
-    top: 740px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 37px;
-    line-height: 56px;
+    left: 73px;
     text-align: center;
-
-    color: #000000;
-    background: transparent;
+    top: 258px;
 }
-span{
-    background: none;
+#separator{
+    border: 1px solid #000000;
+}
+.first-separator-search{
+    position: fixed;
+    width: 350px;
+    top: 330px;
+    left: 80px;
+}
+.filter-heading{
+    position: fixed;
+    top: 343px;
+    left: 190px;
+
+    font-size: 40px;
+    line-height: 72px;
+
+    background-color: transparent;
+}
+.filter-heading-separator{
+    position: fixed;
+    width: 350px;
+    top: 430px;
+    left: 80px;
+}
+.filters-first-option{
+    background-color: transparent;
+
+    position: fixed;
+    top: 495px;
+    left: 80px;
+}
+.pick-type{
+    position: absolute;
+width: 229px;
+height: 35px;
+left: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+top: 235px;
+
+
+color: #000000;
+background-color: transparent;
+
+}
+.Surgical-robots{
+    position: absolute;
+width: 251px;
+height: 46px;
+left: 70px;
+top: 275px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+
+color: #000000;
+background: transparent;
 }
