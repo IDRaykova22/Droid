@@ -1,0 +1,294 @@
+body, *{
+    margin:0;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 129px;
+    width: 98%;
+    left: 1px;
+    top: 0px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+.navbar>a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    white-space: nowrap; /*Da sedqt na edin red*/
+    line-height: 67px;
+    text-decoration: none;
+    color: #000000;
+    
+    position: relative;
+    background-color: transparent;
+} 
+.navbar>a::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      border-radius: 4px;
+      background-color: #18272F;
+      bottom: 10px;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+
+      background-color: transparent;
+    }
+  
+    .navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+    background-color: transparent;
+  }
+.logo /*Droid Logo*/
+{
+    width: 60px; /* Adjust the width and height as needed */
+    height: 55px;
+    background-color: transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    transform: rotate(180deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    position: fixed;
+    left: 3.2rem;
+    top: 2.8rem;
+
+    user-select: none;
+}
+.logotext /*Droid*/
+{
+    position: fixed;
+    width: 108px;
+    height: 46px;
+    left: 8.688rem;
+    top: 2.8rem;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+
+    user-select: none;    
+    
+    color: #000000;
+    background-color: transparent;
+}
+.navbar>:nth-child(2) /*About Us*/
+{
+    position: fixed;
+    width: 125px;
+    height: 67px;
+    left: 34.75rem;
+    top: 2.438rem;
+}
+.navbar>:nth-child(3) /*Contacts*/
+{
+    position: fixed;
+    width: 130px;
+    height: 67px;
+    left: 50.188rem;
+    top: 2.438rem;
+}
+.navbar>:nth-child(4) /*Products*/
+{
+    position: fixed;
+    width: 8.375rem;
+    height: 4.188rem;
+    left: 65.625rem;
+    top: 2.438rem;
+}
+.socialmedias{
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 171px;
+    height: 62px;
+    left: 1597px;
+    top: 39px;
+
+    background: rgba(214, 214, 214, 0.33);
+    border: 2px solid #000000;
+    backdrop-filter: blur(10.2px);
+
+    border-radius: 31px;
+}
+.facebook{
+    position: fixed;
+    height: 32px;
+    left: 100px;
+    top: 13px;
+}
+.instagram{
+    position: fixed;
+    height: 32px;
+    left: 30px;
+    top: 13px;
+}
+.pick-field{
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    width: 296px;
+    height: 72px;
+    left: 814px;
+    top: 151px;
+
+    font-size: 52px;
+}
+#block{
+    background: #EEFCFF;
+    border: 1px solid rgba(7, 191, 237, 0.01);
+    backdrop-filter: blur(0.8px);
+
+    border-radius: 40px;
+}
+.medicine-block{
+    position: fixed;
+    width: 532px;
+    height: 332px;
+    left: 245px;
+    top: 223px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+.medicine-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
+}
+.medicine-block>img{
+    background-color: transparent;
+
+    width: 257px;
+    height: 234px;
+
+    position: fixed;
+    top: 40px;
+}
+.education-block{
+    position: fixed;
+    width: 532px;
+    height: 332px;
+    left: 1143px;
+    top: 223px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+.education-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
+}
+.education-block>img{
+    background-color: transparent;
+
+    width: 246.5px;
+    height: 253px;
+
+    position: fixed;
+    top: 30px;
+}
+.tourism-block{
+    position: fixed;
+    width: 532px;
+    height: 332px;
+    left: 245px;
+    top: 583px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+.tourism-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
+}
+.tourism-block>img{
+    background-color: transparent;
+
+    width: 249.5px;
+    height: 249px;
+
+    position: fixed;
+    top: 20px;
+}
+.custom-block{
+    position: fixed;
+    width: 532px;
+    height: 332px;
+    left: 1143px;
+    top: 583px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+.custom-block>h1{
+    background-color: transparent;
+    position: fixed;
+    top: 270px;
+}
+.custom-block>img{
+    background-color: transparent;
+
+    width: 367px;
+    height: 274px;
+
+    position: fixed;
+    top: 30px;
+}
+.products-decoration-left-circles{
+    position: fixed;
+    left: 0;
+    bottom: -10px;
+
+    background-color: transparent;
+    user-select: none;
+    background: none;
+}
+.medicine-link{
+    color:#000000;
+}
+.products-decoration-right-circles{
+    position: fixed;
+    right: 0;
+    top: -10px;
+    
+    background: none;
+    background-color: transparent;
+    user-select: none;
+}
+.wavy-line-left{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 240px;
+
+    user-select: none;
+}
