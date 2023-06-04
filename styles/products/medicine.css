@@ -292,3 +292,12 @@ body, *{
 
     user-select: none;
 }
+.background-horizontal{
+    position: absolute;
+    width: 1908px;
+    height: 550.5px;
+    left: -25px;
+    top: -6px;
+
+    background: #0096AA;
+}

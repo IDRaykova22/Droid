@@ -261,6 +261,36 @@ body, *{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 94px;
     }
+    .decoration1{
+    position: relative;
+    width: 648px;
+    height: 648px;
+    border-radius: 648px;
+    left: 625px;
+    top: 2600px;
+        
+    background: #00BCD4;
+    }
+    .decoration2{
+    position: relative;
+    width: 472px;
+    height: 472px;
+    border-radius: 472px;
+    left: 713px;
+    top: 2030px;
+        
+    background: #00A9BF;
+    }
+    .decoration3{
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    border-radius: 244px;
+    left: 827px;
+    top: 2810px;
+
+    background: #005E6A;
+    }
     .last-name{
     position: absolute;
     width: 450px;
