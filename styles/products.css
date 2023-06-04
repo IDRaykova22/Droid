@@ -145,6 +145,7 @@ body, *{
     top: 151px;
 
     font-size: 52px;
+    background: none;
 }
 #block{
     background: #EEFCFF;
@@ -294,4 +295,7 @@ body, *{
 }
 h1{
     color: black;
+}
+span{
+    background: none;
 }
