@@ -71,6 +71,8 @@ body, *{
     position: absolute;
     left: 3.2rem;
     top: 2.8rem;
+
+    background-color: transparent;
 }
 
 
@@ -268,6 +270,8 @@ body, *{
     top: 200px;
         
     background: #E1E1E1;
+    border: none;
+    font-size: 25px;
     }
     .first-name1{
     position: absolute;
@@ -295,6 +299,9 @@ body, *{
     top: 200px;
     
     background: #E1E1E1;
+    border: none;
+
+    font-size: 25px;
     }
     .last-name1{
     position: absolute;
@@ -313,6 +320,7 @@ body, *{
     color: #ADADAD;
     background: none;
     }
+
     .Describe-your-order{
     position: absolute;
     width: 1272px;
@@ -322,7 +330,11 @@ body, *{
     
     background: #E1E1E1;
     border-radius: 40px;
+
+    border: none;
+    font-size: 25px;
     }
+
     .Describe-your-order1{
     position: absolute;
     width: 320px;
@@ -349,7 +361,11 @@ body, *{
     top: 850px;
         
     background: #E1E1E1;
+
+    border: none;
+    font-size: 25px;
     }
+
     .Email1{
     position: absolute;
     width: 186px;
@@ -367,6 +383,7 @@ body, *{
     color: #ADADAD;
     background: none;
     }
+
     .Phone-number{
     position: absolute;
     width: 450px;
@@ -376,7 +393,10 @@ body, *{
     top: 850px;
         
     background: #E1E1E1;
+    border: none;
+    font-size: 25px;
     }
+
     .Phone-number1{
     position: absolute;
     width: 300px;
