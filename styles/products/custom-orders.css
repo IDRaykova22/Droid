@@ -447,3 +447,13 @@ body, *{
     span{
         background: none;
     }
+    .line-decoration{
+    position: absolute;
+    width: 282px;
+    height: 0px;
+    right: 900px;
+    top: 3385px;
+    
+    border: 6px solid #00BCD4;
+    transform: rotate(90deg);
+    }
