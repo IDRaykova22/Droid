@@ -292,3 +292,81 @@ body, *{
 
     user-select: none;
 }
+#sunny{
+    /* Rectangle 4375 */
+
+position: absolute;
+width: 802px;
+height: 743px;
+left: 72px;
+top: 168px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 82px;
+}
+
+.sunny-productunny{
+
+position: absolute;
+width: 740px;
+height: 440px;
+left: 103px;
+top: 320px;
+
+filter: brightness(130%);
+background: none;
+}
+
+.sunny-product{
+
+position: absolute;
+width: 740px;
+height: 440px;
+left: 30px;
+top: 170px;
+
+background-color: transparent;
+}
+
+h1{
+/* Sunny */
+
+position: absolute;
+width: 335px;
+height: 131px;
+left: 1132px;
+top: 129px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 150px;
+
+color: #000000;
+}
+swan{
+position: absolute;
+width: 739px;
+height: 448px;
+left: 974px;
+top: 312px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+background: none;
+}
+.sunny-decoration{
+    position: absolute;
+width: 500px;
+height: 400px;
+left: 1395px;
+top: 652px;
+
+}
