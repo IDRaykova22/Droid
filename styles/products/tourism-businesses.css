@@ -609,3 +609,183 @@ label{
     filter: brightness(130%);
     background: none;
 }
+.title-description-Heipi{
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    left: 613px;
+    top: 510px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.description-Heipi{
+    position: fixed;
+    width: 385px;
+    height: 52px;
+    left: 590px;
+    top: 505px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+    background: none;
+}
+span{
+    background: none;
+}
+.rectangle-2{
+    position: fixed;
+    width: 397px;
+    height: 303px;
+    left: 1256px;
+    top: 200px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 82px;
+}
+.Luggi{
+    position: fixed;
+    width: 305px;
+    height: 274px;
+    left: 1302px;
+    top: 220px;
+
+    filter: brightness(130%);
+    background: none;
+}
+.title-description-Luggi{
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    left: 1285px;
+    top: 510px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;  
+}
+.description-Luggi{
+    position: fixed;
+    width: 385px;
+    height: 52px;
+    left: 1270px;
+    top: 505px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;filter: brightness(130%);
+    background: none;
+    background: none;
+}
+.rectangle-3{
+    position: absolute;
+    width: 397px;
+    height: 303px;
+    left: 589px;
+    top: 600px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 82px;
+}
+.Tile{
+    position: absolute;
+    width: 393px;
+    height: 370px;
+    left: -10px;
+    top: -10px;
+
+    filter: brightness(130%);
+    background: none;
+}
+.title-description-Tile{
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    left: 613px;
+    top: 909px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.description-Tile{
+    position: absolute;
+    width: 385px;
+    height: 52px;
+    left: 595px;
+    top: 905px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #000000;
+    background: none;
+}
+.rectangle-4{
+    position: absolute;
+    width: 397px;
+    height: 303px;
+    left: 1256px;
+    top: 600px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 82px;
+}
+.Tracy{
+    position: absolute;
+    width: 230px;
+    height: 251px;
+    left: 85px;
+    top: 30px;
+
+    filter: brightness(130%);
+    background: none;
+}
+.title-decription-Tracy{
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    left: 1282px;
+    top: 909px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.description-Tracy{
+    position: absolute;
+    width: 397px;
+    height: 52px;
+    left: 1265px;
+    top: 905px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+    background: none;
+
+}
