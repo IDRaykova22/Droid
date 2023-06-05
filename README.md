@@ -1,7 +1,7 @@
-<h1 align="center">Team Droid	</h1>
+<h1 align="center">Team Droid</h1>
 
 <p align="center">
-    <img src="Documents/banners/banner-dark.png#gh-dark-mode-only"/>
+    <img src="https://cdn.discordapp.com/attachments/723998679400316949/1115380142261420164/banner.png">
 </p>
 
 <p align = "center">
@@ -13,8 +13,8 @@
 <br>
 
 ## 💻 About
-<p align="center">This is our take on the Bitwise Operations Project. Here you'll find the source code & files for our application, that is an open-sourced encryption software, made with C++. You can hash passwords, salt & pepper them and much more!</p>
-<p align="center"><b>How will you cipher your data?</b></p>
+<p align="center">Our main task is to create a company that sells all kind of new and reliable technology.</p>
+<p align="center"><b>What would you choose?</b></p>
 
 <p align="center">
     <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
@@ -30,19 +30,17 @@
 ### Used tools for our visual elements:
 <p align="left">
     <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/344/figma--v1.png" alt="Figma logo" width=48px/></a>
-    <a href="https://www.adobe.com/creativecloud.html"><img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/creative-cloud.svg" alt="adobe creative cloud" width=48px /></a>
 </p>
 
 ### Used technologies for our project development:
 <p align="left">
-    <a href="https://www.cplusplus.com/"><img src="https://www.rockodilegames.com/wp-content/uploads/2018/09/c-plus-plus-logo.png" alt="Figma logo" width=48px/></a>
-    <a href="https://www.raylib.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Raylib_logo.png" alt="raylib" width=48px /></a>
+    <a href="https://html.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo" width=48px/></a>
+    <a href="https://html.com/"><img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" alt="CSS logo" width=48px/></a>
 </p>
 
 ### Used tools for our documentation, presentation & communication:
 <p align="left">
     <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/color/344/ms-word.png" alt="MS Word logo" width=48px /></a>
-    <a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="https://img.icons8.com/color/344/ms-excel.png" alt="MS Excel logo" width=48px /></a>
     <a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
 </p>
 
@@ -63,27 +61,27 @@
     <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
 </p>
 
-## 📥 Installation
+## 💾 Installation
 
-If you want to install our application, you can navigate towards the "<a href="https://github.com/codingburgas/girl-power/releases">Releases</a>" tab and download the latest version. <br><br>
+If you want to install our application, you can navigate towards the "<a href="https://github.com/IDRaykova22/Droid">Releases</a>" tab and download the latest version. <br><br>
 Here's the link for you:
-<pre>https://github.com/codingburgas/girl-power/releases</pre>
+<pre>https://github.com/IDRaykova22/Droid</pre>
 
 <p align="center">
     <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
 </p>
 
-## 🧒 Our Team
+## 👥 Our Team
 
-- <a href = "https://github.com/SPGeorgieva21">Stela Georgieva </a> (Scrum trainer)
-- <a href = "https://github.com/MVKoleva21">Maria Koleva</a> (Back-end Developer)
-- <a href = "https://github.com/ZIValkova21">Zhasmina Valkova</a> (Front-end Developer)
-- <a href = "https://github.com/AMZheleva21">Aleksandra Zheleva</a> (QA Engineer)
+- <a href = "https://github.com/IDRaykova22">Iva Raikova</a> (Scrum trainer)
+- <a href = "https://github.com/RDNikolov22">Rostislav Nikolov</a> (Back-end Developer)
+- <a href = "https://github.com/AAPopova22">Arina Popova</a> (Front-end Developer)
+- <a href = "https://github.com/niribareva22">Natali Ribareva</a> (Designer)
 
 <p align="center">
     <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112430023123015/line-dark.png#gh-dark-mode-only"/>
     <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
 </p>
 
-## <p align="center">Thanks for checking out our repo, show us some ❤️ by giving our repo a ⭐️!</p>
+## <p align="center">If you like our project, you can show it by giving us a star!</p>
 
