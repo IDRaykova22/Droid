@@ -562,3 +562,29 @@ label{
 .Surgical{
     top:276px;
 }
+.third-separator{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 40px;
+    top: 390px;
+
+    border: 1px solid #000000;
+}
+.support-heading{
+    position: fixed;
+    width: 282px;
+    height: 157px;
+    left: 140px;
+    top: 605px;
+
+    background: transparent;
+}
+.fourth-separator{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 40px;
+    top: 505px;
+    
+}
