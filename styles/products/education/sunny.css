@@ -262,6 +262,7 @@ body, *{
 
     position: fixed;
     top: 30px;
+
 }
 .products-decoration-left-circles{
     position: fixed;
@@ -293,7 +294,6 @@ body, *{
     user-select: none;
 }
 #sunny{
-    /* Rectangle 4375 */
 
 position: absolute;
 width: 802px;
@@ -327,6 +327,8 @@ left: 30px;
 top: 170px;
 
 background-color: transparent;
+
+user-select: none;
 }
 
 h1{
@@ -346,7 +348,7 @@ line-height: 150px;
 
 color: #000000;
 }
-swan{
+p{
 position: absolute;
 width: 739px;
 height: 448px;
@@ -363,12 +365,13 @@ color: #000000;
 background: none;
 }
 .sunny-decoration{
-    position: absolute;
-width: 500px;
-height: 400px;
-left: 1395px;
-top: 652px;
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    left: 1420px;
+    top: 652px;
 
+    user-select: none;
 }
 .sunny-purchase{
     position: absolute;
@@ -381,4 +384,9 @@ top: 652px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
     border: none;
+
+    font-size: 48px;
+    color: #005E6A;
+
+    cursor: pointer;
 }
