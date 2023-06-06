@@ -52,10 +52,10 @@
 ## 📄 Documents
 
 ### Code & Team Documentation
-  - [Team Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/amzheleva21_codingburgas_bg/EXKtqGgx3-lGq7T4YpYrwD8BAx8UfXNTP4Go88fZZ2YsLQ?e=pG73Eo)
+  - [Team Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/idraykova22_codingburgas_bg/Ee73vYTwM95MrtPAOOl5rJEB4T8VVz-Idc7MHnQrcRqDqw?e=roTmQp)
 
 ### Presenting
-  - [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/spgeorgieva21_codingburgas_bg/EaoK52xxEsFCo5EHc61fgZYBsPQzItiCUgBrIx8yRhgs6A)
+  - [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/idraykova22_codingburgas_bg/ERnAzW2LUglMi699iuL9YzgB-Z7nMCCu6oNCPKxkEOvO1Q?e=Z9x5LZ&nav=eyJzSWQiOjI1NiwiY0lkIjowfQ)
 
 <p align="center">
     <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
