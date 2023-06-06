@@ -608,6 +608,9 @@ label{
 
     filter: brightness(130%);
     background: none;
+
+    cursor: pointer;
+    user-select: none;
 }
 .title-description-recbo{
     position: absolute;
@@ -660,6 +663,9 @@ span{
 
     filter: brightness(130%);
     background: none;
+
+    user-select: none;
+    cursor: pointer;
 }
 .title-description-speeto{
     position: absolute;
@@ -710,6 +716,9 @@ span{
 
     filter: brightness(130%);
     background: none;
+
+    user-select: none;
+    cursor: pointer;
 }
 .title-description-nao{
     position: absolute;
@@ -759,6 +768,10 @@ span{
 
     filter: brightness(130%);
     background: none;
+
+    cursor: pointer;
+
+    user-select: none;
 }
 .title-decription-Sandy{
     position: absolute;

@@ -650,6 +650,8 @@ span{
     background: #FFFFFF;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
+
+    cursor: pointer;
 }
 .terover{
     position: fixed;
@@ -660,6 +662,8 @@ span{
 
     filter: brightness(130%);
     background: none;
+
+    cursor: pointer;
 }
 .title-description-terover{
     position: absolute;
@@ -710,6 +714,8 @@ span{
 
     filter: brightness(130%);
     background: none;
+
+    cursor: pointer;
 }
 .title-description-bordo{
     position: absolute;
@@ -759,6 +765,8 @@ span{
 
     filter: brightness(130%);
     background: none;
+
+    cursor: pointer;
 }
 .title-decription-Goshi{
     position: absolute;
