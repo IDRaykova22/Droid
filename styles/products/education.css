@@ -523,3 +523,87 @@ span{
     background: none;
 
 }
+.english-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 724px;
+    
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+
+.english-check>label{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 137px;
+    top: 713px;
+}
+
+
+.bulgarian-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 780px;
+    
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+
+.bulgarian-check>label{
+    position:fixed;
+    width: 157px;
+    height: 49px;
+    left: 137px;
+    top: 769px;
+}
+
+
+.russian-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 834px;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.russian-check>label{
+    position:fixed;
+    width: 157px;
+    height: 49px;
+    left: 137px;
+    top: 823px;
+}
+
+
+.turkish-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 890px;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.turkish-check>label{
+    position:fixed;
+    width: 157px;
+    height: 49px;
+    left: 137px;
+    top: 880px;
+}
