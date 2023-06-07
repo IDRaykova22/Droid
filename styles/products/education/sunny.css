@@ -146,7 +146,7 @@ body, *{
     top: 13px;
 }
 
-#sunny{
+#sunny-block{
 
 position: absolute;
 width: 802px;
@@ -171,19 +171,19 @@ filter: brightness(130%);
 background: none;
 }
 
-.sunny-product{
+.sunny-image{
 position: absolute;
 width: 740px;
 height: 440px;
 left: 30px;
-top: 170px;
+top: 120px;
 
 background-color: transparent;
 
 user-select: none;
 }
 
-h1{
+#product-name{
 /* Sunny */
 
 position: absolute;
@@ -201,7 +201,7 @@ line-height: 150px;
 color: #000000;
 }
 
-p{
+#product-description{
 position: absolute;
 width: 739px;
 height: 448px;
@@ -218,7 +218,7 @@ color: #000000;
 background: none;
 }
 
-.sunny-decoration{
+.sunny-decoration-right{
     position: fixed;
     width: 500px;
     height: 400px;

@@ -56,7 +56,7 @@ body, *{
 
 .logo /*Droid Logo*/
 {
-    width: 60px; /* Adjust the width and height as needed */
+    width: 60px;
     height: 55px;
     background-color: transparent;
     border-radius: 50%;
@@ -214,7 +214,7 @@ p{
     background: none;
     }
     
-    .heipi-decoration{
+.heipi-decoration{
     position: fixed;
     width: 500px;
     height: 400px;
