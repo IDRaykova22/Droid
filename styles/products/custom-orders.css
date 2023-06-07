@@ -155,31 +155,30 @@ body, *{
     left: 30px;
     top: 13px;
 }
-.title{
+.order-mean>h1{
     position: absolute;
     width: 617px;
     height: 94px;
     left: 117px;
     top: 199px;
     
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 72px;
     
     color: #000000;
     }
-    .settings-icon{
+.settings-icon{
     position: absolute;
-    width: 307px;
+    width: 407px;
     height: 546px;
-    left: 175px;
-    top: 344px;
+    left: 115px;
+    top: 374px;
     filter: brightness(130%);
     background-color: transparent;
-    }
-    .text1{
+}
+
+.order-mean-description{
     position: absolute;
     width: 1059px;
     height: 420px;
@@ -193,8 +192,9 @@ body, *{
     line-height: 60px;
     
     color: #000000;
-    }
-    .text2{
+}
+
+.order-made>p{
     position: absolute;
     width: 692px;
     height: 626px;
@@ -208,8 +208,9 @@ body, *{
     line-height: 60px;
     
     color: #000000;
-    }
-    .title2{
+}
+
+.order-made>h1{
     position: absolute;
     width: 832px;
     height: 56px;
@@ -224,8 +225,9 @@ body, *{
     text-align: right;
     
     color: #000000;
-    }
-    .droid-factory{
+}
+
+.droid-factory{
     position: absolute;
     width: 999px;
     height: 708px;
@@ -234,8 +236,9 @@ body, *{
     
     filter: brightness(130%);
     border-radius: 55px;
-    }
-    .title3{
+}
+
+.title3{
     position: absolute;
     width: 1101px;
     height: 110px;
@@ -249,8 +252,9 @@ body, *{
     line-height: 96px;
     
     color: #000000;
-    }
-    .rectangle{
+}
+
+.rectangle{
     position: absolute;
     width: 1523px;
     height: 1000px;
@@ -260,8 +264,9 @@ body, *{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 94px;
-    }
-    .decoration1{
+}
+
+.decoration1{
     position: relative;
     width: 648px;
     height: 648px;
@@ -270,8 +275,9 @@ body, *{
     top: 2600px;
         
     background: #00BCD4;
-    }
-    .decoration2{
+}
+
+.decoration2{
     position: relative;
     width: 472px;
     height: 472px;
@@ -280,8 +286,9 @@ body, *{
     top: 2030px;
         
     background: #00A9BF;
-    }
-    .decoration3{
+}
+
+.decoration3{
     position: absolute;
     width: 244px;
     height: 244px;
@@ -290,8 +297,9 @@ body, *{
     top: 2810px;
 
     background: #005E6A;
-    }
-    .last-name{
+}
+
+.last-name{
     position: absolute;
     width: 450px;
     height: 50px;
@@ -302,8 +310,9 @@ body, *{
     background: #E1E1E1;
     border: none;
     font-size: 25px;
-    }
-    .first-name1{
+}
+
+.first-name1{
     position: absolute;
     width: 186px;
     height: 50px;
@@ -319,8 +328,9 @@ body, *{
         
     color: #ADADAD;
     background: none;
-    }
-    .first-name-type{
+}
+
+.first-name-type{
     position: absolute;
     width: 450px;
     height: 50px;
@@ -332,8 +342,9 @@ body, *{
     border: none;
 
     font-size: 25px;
-    }
-    .last-name1{
+}
+
+.last-name1{
     position: absolute;
     width: 166px;
     height: 50px;
@@ -349,9 +360,9 @@ body, *{
     
     color: #ADADAD;
     background: none;
-    }
+}
 
-    .Describe-your-order{
+.Describe-your-order{
     position: absolute;
     width: 1272px;
     height: 305px;
@@ -363,9 +374,9 @@ body, *{
 
     border: none;
     font-size: 25px;
-    }
+}
 
-    .Describe-your-order1{
+.Describe-your-order1{
     position: absolute;
     width: 320px;
     height: 57px;
@@ -381,8 +392,9 @@ body, *{
     
     color: #ADADAD;
     background: none;
-    }
-    .Email{
+}
+
+.Email{
     position: absolute;
     width: 450px;
     height: 50px;
@@ -394,9 +406,9 @@ body, *{
 
     border: none;
     font-size: 25px;
-    }
+}
 
-    .Email1{
+.Email1{
     position: absolute;
     width: 186px;
     height: 50px;
@@ -412,9 +424,9 @@ body, *{
     
     color: #ADADAD;
     background: none;
-    }
+}
 
-    .Phone-number{
+.Phone-number{
     position: absolute;
     width: 450px;
     height: 50px;
@@ -425,9 +437,9 @@ body, *{
     background: #E1E1E1;
     border: none;
     font-size: 25px;
-    }
+}
 
-    .Phone-number1{
+.Phone-number1{
     position: absolute;
     width: 300px;
     height: 50px;
@@ -443,11 +455,13 @@ body, *{
     
     color: #ADADAD;
     background: none;
-    }
-    span{
-        background: none;
-    }
-    .line-decoration{
+}
+
+span{
+     background: none;
+}
+
+.line-decoration{
     position: absolute;
     width: 282px;
     height: 0px;
@@ -456,8 +470,9 @@ body, *{
     
     border: 6px solid #00BCD4;
     transform: rotate(90deg);
-    }
-    .send-message{
+}
+
+.send-message{
     position: absolute;
     width: 553px;
     height: 90px;
@@ -468,4 +483,4 @@ body, *{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
     border: none;
-    }
+}
