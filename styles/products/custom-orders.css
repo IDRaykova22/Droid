@@ -254,7 +254,7 @@ body, *{
     color: #000000;
 }
 
-.rectangle{
+.form{
     position: absolute;
     width: 1523px;
     height: 1000px;
@@ -299,7 +299,7 @@ body, *{
     background: #005E6A;
 }
 
-.last-name{
+.last-name-input{
     position: absolute;
     width: 450px;
     height: 50px;
@@ -312,7 +312,7 @@ body, *{
     font-size: 25px;
 }
 
-.first-name1{
+.first-name>h1{
     position: absolute;
     width: 186px;
     height: 50px;
@@ -344,7 +344,7 @@ body, *{
     font-size: 25px;
 }
 
-.last-name1{
+.last-name>h1{
     position: absolute;
     width: 166px;
     height: 50px;
