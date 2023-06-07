@@ -3,14 +3,17 @@ body, *{
     background-color: #F0F0F0;
     font-family: 'Poppins', sans-serif;
 }
-::selection{
+
+::selection{ /*Kogato markirash opredelen tekst*/
     background-color: black;
     color: white;
 }
+
 #no-background{
     background-color: transparent;
 }
-.navbar{
+
+.navbar{ /*Background-a na navbara*/
     box-sizing: border-box;
 
     position: absolute;
@@ -22,8 +25,8 @@ body, *{
     border: 1px solid rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(3.2px);
 }
-.navbar>a{
-    font-style: normal;
+
+.navbar>a{ /*Obshto za vsichki kategorii*/
     font-weight: 400;
     font-size: 37px;
     line-height: 67px;
@@ -33,6 +36,7 @@ body, *{
     
     position: relative;
 } 
+
 .navbar>a::before {
       content: '';
       position: absolute;
@@ -47,32 +51,33 @@ body, *{
       transition: transform .3s ease-in-out;
     }
   
-    .navbar>a:hover::before {
+.navbar>a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
   }
+
 .logo /*Droid Logo*/
 {
-    width: 60px; /* Adjust the width and height as needed */
+    width: 86px;
     height: 55px;
     border-radius: 50%;
     object-fit: cover;
     border: none;
     transform: rotate(180deg);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: transparent;
 
-    position: absolute;
-    left: 3.2rem;
-    top: 2.8rem;
+    position: fixed;
+    left: 40px;
+    top: 38px;
 }
+
 .logo-text /*Droid*/
 {
-    position: absolute;
+    position: fixed;
     width: 108px;
     height: 46px;
-    left: 8.688rem;
-    top: 2.8rem;
+    left: 139px;
+    top: 44.8px;
     
     font-style: normal;
     font-weight: 400;
@@ -83,31 +88,35 @@ body, *{
     
     color: #000000;
 }
+
 .navbar>:nth-child(2) /*About Us*/
 {
     position: absolute;
     width: 125px;
     height: 67px;
-    left: 34.75rem;
-    top: 2.438rem;
+    left: 556px;
+    top: 39px;
 }
+
 .navbar>:nth-child(3) /*Contacts*/
 {
     position: absolute;
     width: 130px;
     height: 67px;
-    left: 50.188rem;
-    top: 2.438rem;
+    left: 803px;
+    top: 39px;
 }
+
 .navbar>:nth-child(4) /*Products*/
 {
     position: absolute;
-    width: 8.375rem;
-    height: 4.188rem;
-    left: 65.625rem;
-    top: 2.438rem;
+    width: 134px;
+    height: 67px;
+    left: 1050px;
+    top: 39px;
 }
-.socialmedias{
+
+.socialmedias{ /*Box-a*/
     box-sizing: border-box;
 
     position: absolute;
@@ -122,12 +131,14 @@ body, *{
 
     border-radius: 31px;
 }
+
 .facebook{
     position: absolute;
     height: 32px;
     left: 100px;
     top: 13px;
 }
+
 .instagram{
     position: absolute;
     height: 32px;
@@ -138,7 +149,8 @@ body, *{
 .index-background{
     margin: auto;
 }
-#background-decoration-left
+
+#background-decoration-left /*Gradienta dolu lqvo*/
 {
     position: fixed;
     width: 1238px;
@@ -147,10 +159,11 @@ body, *{
     top: 461px;
     
     background: rgba(8, 131, 149, 0.3);
-    mix-blend-mode: hard-light;
+    mix-blend-mode: hard-light; /*za poveche kontrast*/
     filter: blur(250px);
 }
-#background-decoration-right{
+
+#background-decoration-right{ /*Gradienta gore dqsno*/
     position: fixed;
     width: 1238px;
     height: 838px;
@@ -161,6 +174,7 @@ body, *{
     mix-blend-mode: hard-light;
     filter: blur(250px);
 }
+
 #heading{
     position: fixed;
     width: 716px;
@@ -172,10 +186,12 @@ body, *{
     font-size: 70px;
     line-height: 105px;
 }
-.clear{
+
+.clear{ /*produce, sell, offer*/
     color : transparent;
     -webkit-text-stroke: 1px #005E6A; 
 }
+
 .intro-info{
     position: fixed;
     width: 725px;
@@ -185,7 +201,8 @@ body, *{
 
     font-size: 22px;
 }
-.our-team{
+
+.our-team{ /*button*/
     position: fixed;
     width: 256px;
     height: 72px;
@@ -201,15 +218,14 @@ body, *{
     align-items: center;
     font-weight: 800;
     font-size: 24px;
-    line-height: 36px;
     text-align: right;
     letter-spacing: 0.96px;
     
     color: #FFFFFF;
-
     cursor: pointer;
 }
-.droid{
+
+.droid{ /*snimkata na robota*/
     position: fixed;
     width: 530px;
     height: 877px;
