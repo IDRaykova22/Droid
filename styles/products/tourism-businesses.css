@@ -86,6 +86,7 @@ body, *{
     user-select: none;    
 
     color: #000000;
+    background-color: transparent;
 }
 
 .navbar>:nth-child(2) /*About Us*/
@@ -95,6 +96,8 @@ body, *{
     height: 67px;
     left: 34.75rem;
     top: 2.438rem;
+
+    background-color: transparent;
 }
 
 .navbar>:nth-child(3) /*Contacts*/
@@ -104,6 +107,8 @@ body, *{
     height: 67px;
     left: 50.188rem;
     top: 2.438rem;
+    
+    background-color: transparent;
 }
 
 .navbar>:nth-child(4) /*Products*/
@@ -113,6 +118,8 @@ body, *{
     height: 4.188rem;
     left: 65.625rem;
     top: 2.438rem;
+
+    background-color: transparent;
 }
 
 .socialmedias{
@@ -638,10 +645,21 @@ span{
     left: 137px;
     top: 880px;
 }
-.decoration>img{
+
+.decoration>img:last-child{
     position: fixed;
     top: 0;
     right: 0;
 
     user-select: none;
+    background-color: transparent;
+}
+.decoration>img:first-child{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1500px;
+
+    user-select: none;
+    background-color: transparent;
 }
