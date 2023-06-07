@@ -94,7 +94,6 @@ body, *{
     color: #000000;
 }
 
-
 .navbar>:nth-child(2) /*About Us*/
 {
     position: absolute;
@@ -103,7 +102,6 @@ body, *{
     left: 34.75rem;
     top: 2.438rem;
 }
-
 
 .navbar>:nth-child(3) /*Contacts*/
 {
@@ -114,7 +112,6 @@ body, *{
     top: 2.438rem;
 }
 
-
 .navbar>:nth-child(4) /*Products*/
 {
     position: absolute;
@@ -123,7 +120,6 @@ body, *{
     left: 65.625rem;
     top: 2.438rem;
 }
-
 
 .socialmedias{
     box-sizing: border-box;
@@ -140,20 +136,22 @@ body, *{
     border-radius: 31px;
 }
 
-
 .facebook{
     position: fixed;
     height: 32px;
     left: 100px;
     top: 13px;
-}
 
+    background-color: transparent;
+}
 
 .instagram{
     position: fixed;
     height: 32px;
     left: 30px;
     top: 13px;
+    
+    background-color: transparent;
 }
 .search-zone{
     background: linear-gradient(180deg, #00A9BF 0%, rgba(112, 185, 194, 0.9) 55.04%, rgba(217, 217, 217, 0.1) 100%);
@@ -578,7 +576,6 @@ span{
     cursor: pointer;
 }
 
-
 .russian-check>label{
     position:fixed;
     width: 157px;
@@ -586,7 +583,6 @@ span{
     left: 137px;
     top: 823px;
 }
-
 
 .turkish-check{
     position:fixed;
@@ -599,11 +595,18 @@ span{
     cursor: pointer;
 }
 
-
 .turkish-check>label{
     position:fixed;
     width: 157px;
     height: 49px;
     left: 137px;
     top: 880px;
+}
+
+.decoration>img{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    user-select: none;
 }

@@ -4,12 +4,10 @@ body, *{
     font-family: 'Poppins', sans-serif;
 }
 
-
 ::selection{
     background-color: black;
     color: white;
 }
-
 
 .navbar{
     box-sizing: border-box;
@@ -37,26 +35,24 @@ body, *{
     position: relative;
 } 
 
-
 .navbar>a::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        border-radius: 4px;
-        background-color: #18272F;
-        bottom: 10px;
-        left: 0;
-        transform-origin: right;
-        transform: scaleX(0);
-        transition: transform .3s ease-in-out;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 10px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
 }
 
 .navbar>a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
-
 
 .logo /*Droid Logo*/
 {
@@ -92,6 +88,8 @@ body, *{
     user-select: none;    
 
     color: #000000;
+
+    background-color: transparent;
 }
 
 
@@ -100,8 +98,10 @@ body, *{
     position: absolute;
     width: 125px;
     height: 67px;
-    left: 34.75rem;
-    top: 2.438rem;
+    left: 556px;
+    top: 39px;
+
+    background-color: transparent;
 }
 
 
@@ -112,6 +112,8 @@ body, *{
     height: 67px;
     left: 50.188rem;
     top: 2.438rem;
+
+    background-color: transparent;
 }
 
 
@@ -122,6 +124,8 @@ body, *{
     height: 4.188rem;
     left: 65.625rem;
     top: 2.438rem;
+
+    background-color: transparent;
 }
 
 
@@ -146,6 +150,8 @@ body, *{
     height: 32px;
     left: 100px;
     top: 13px;
+
+    background-color: transparent;
 }
 
 
@@ -154,200 +160,9 @@ body, *{
     height: 32px;
     left: 30px;
     top: 13px;
+
+    background-color: transparent;
 } 
-
-
-.pick-field{
-    position: fixed;
-    font-family: 'Poppins', sans-serif;
-    width: 296px;
-    height: 72px;
-    left: 814px;
-    top: 151px;
-
-    font-size: 52px;
-}
-
-
-#block{
-    background: #EEFCFF;
-    border: 1px solid rgba(7, 191, 237, 0.01);
-    backdrop-filter: blur(0.8px);
-
-    border-radius: 40px;
-}
-
-
-.medicine-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 245px;
-    top: 223px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-
-
-.medicine-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-
-
-.medicine-block>img{
-    background-color: transparent;
-
-    width: 257px;
-    height: 234px;
-
-    position: fixed;
-    top: 40px;
-}
-
-
-.education-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 1143px;
-    top: 223px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-
-}
-
-
-.education-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-
-
-.education-block>img{
-    background-color: transparent;
-
-    width: 246.5px;
-    height: 253px;
-
-    position: fixed;
-    top: 30px;
-}
-
-
-.tourism-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 245px;
-    top: 583px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-
-}
-
-
-.tourism-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-
-
-.tourism-block>img{
-    background-color: transparent;
-
-    width: 249.5px;
-    height: 249px;
-
-    position: fixed;
-    top: 20px;
-}
-
-
-.custom-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 1143px;
-    top: 583px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-
-
-.custom-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-
-
-.custom-block>img{
-    background-color: transparent;
-
-    width: 367px;
-    height: 274px;
-
-    position: fixed;
-    top: 30px;
-}
-
-
-.products-decoration-left-circles{
-    position: fixed;
-    left: 0;
-    bottom: -10px;
-
-    background-color: transparent;
-    user-select: none;
-    background: none;
-}
-
-
-.medicine-link{
-    color:#000000;
-}
-
-
-.products-decoration-right-circles{
-    position: fixed;
-    right: 0;
-    top: -10px;
-    
-    background: none;
-    background-color: transparent;
-    user-select: none;
-}
-
-
-.wavy-line-left{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 240px;
-
-    user-select: none;
-}
-
 
 .search-zone{
     background: linear-gradient(180deg, #00A9BF 0%, rgba(112, 185, 194, 0.9) 55.04%, rgba(217, 217, 217, 0.1) 100%);
@@ -361,7 +176,6 @@ body, *{
     height: 740px;
 }
 
-
 .search-input{
     background: #D9D9D9;
     border: 1px solid black;
@@ -374,11 +188,9 @@ body, *{
     top: 258px;
 }
 
-
 #separator{
     border: 1px solid black;
 }
-
 
 .first-separator-search{
     position: fixed;
@@ -386,7 +198,6 @@ body, *{
     top: 330px;
     left: 80px;
 }
-
 
 .filter-heading{
     position: fixed;
@@ -399,14 +210,12 @@ body, *{
     background-color: transparent;
 }
 
-
 .filter-heading-separator{
     position: fixed;
     width: 350px;
     top: 430px;
     left: 80px;
 }
-
 
 .filters-first-option{
     background-color: transparent;
@@ -415,7 +224,6 @@ body, *{
     top: 495px;
     left: 80px;
 }
-
 
 .pick-type{
     position: absolute;
@@ -430,12 +238,10 @@ body, *{
     line-height: 48px;
     top: 235px;
 
-
     color: black;
     background-color: transparent;
 
 }
-
 
 #type-option1{
     position: absolute;
@@ -454,7 +260,6 @@ body, *{
     background: transparent;
 }
 
-
 #type-option2{
     position: absolute;
     width: 20px;
@@ -471,7 +276,6 @@ body, *{
     color: black;
     background: transparent;
 }
-
 
 label{
     position: absolute;
@@ -490,7 +294,6 @@ label{
     background: transparent;
 }
 
-
 .Rehabilitation{
     position: absolute;
     width: 251px;
@@ -502,11 +305,9 @@ label{
     background: transparent;
 }
 
-
 .Surgical{
     top:276px;
 }
-
 
 .third-separator{
     position: absolute;
@@ -518,7 +319,6 @@ label{
     border: 1px solid #000000;
 }
 
-
 .support-heading{
     position: fixed;
     width: 282px;
@@ -529,7 +329,6 @@ label{
     background: transparent;
 }
 
-
 .fourth-separator{
     position: absolute;
     width: 350px;
@@ -538,7 +337,6 @@ label{
     top: 505px;
     
 }
-
 
 .rectangle-1{
     position: absolute;
@@ -551,7 +349,6 @@ label{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
-
 
 .RecBo{
     position: absolute;
@@ -567,7 +364,6 @@ label{
     user-select: none;
 }
 
-
 .title-description-recbo{
     position: absolute;
     width: 345px;
@@ -579,7 +375,6 @@ label{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
-
 
 .description-recbo{
     position: fixed;
@@ -599,11 +394,9 @@ label{
     background: none;
 }
 
-
 span{
     background: none;
 }
-
 
 .rectangle-2{
     position: fixed;
@@ -616,7 +409,6 @@ span{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
-
 
 .Speeto{
     position: fixed;
@@ -632,7 +424,6 @@ span{
     cursor: pointer;
 }
 
-
 .title-description-speeto{
     position: absolute;
     width: 345px;
@@ -644,7 +435,6 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;  
 }
-
 
 .description-speeto{
     position: fixed;
@@ -665,7 +455,6 @@ span{
     background: none;
 }
 
-
 .rectangle-3{
     position: absolute;
     width: 397px;
@@ -677,7 +466,6 @@ span{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
-
 
 .Nao{
     position: absolute;
@@ -693,7 +481,6 @@ span{
     cursor: pointer;
 }
 
-
 .title-description-nao{
     position: absolute;
     width: 345px;
@@ -705,7 +492,6 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
-
 
 .description-nao{
     position: absolute;
@@ -725,7 +511,6 @@ span{
     background: none;
 }
 
-
 .rectangle-4{
     position: absolute;
     width: 397px;
@@ -737,7 +522,6 @@ span{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
-
 
 .Sandy{
     position: absolute;
@@ -754,7 +538,6 @@ span{
     user-select: none;
 }
 
-
 .title-decription-Sandy{
     position: absolute;
     width: 345px;
@@ -766,7 +549,6 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
-
 
 .description-Sandy{
     position: absolute;
@@ -787,7 +569,6 @@ span{
 
 }
 
-
 .english-check{
     position:fixed;
     width: 17px;
@@ -800,7 +581,6 @@ span{
     cursor: pointer;
 }
 
-
 .english-check>label{
     position:fixed;
     width: 17px;
@@ -808,7 +588,6 @@ span{
     left: 137px;
     top: 713px;
 }
-
 
 .bulgarian-check{
     position:fixed;
@@ -822,7 +601,6 @@ span{
     cursor: pointer;
 }
 
-
 .bulgarian-check>label{
     position:fixed;
     width: 157px;
@@ -830,7 +608,6 @@ span{
     left: 137px;
     top: 769px;
 }
-
 
 .russian-check{
     position:fixed;
@@ -843,7 +620,6 @@ span{
     cursor: pointer;
 }
 
-
 .russian-check>label{
     position:fixed;
     width: 157px;
@@ -851,7 +627,6 @@ span{
     left: 137px;
     top: 823px;
 }
-
 
 .turkish-check{
     position:fixed;
@@ -864,11 +639,27 @@ span{
     cursor: pointer;
 }
 
-
 .turkish-check>label{
     position:fixed;
     width: 157px;
     height: 49px;
     left: 137px;
     top: 880px;
+}
+.decoration>img:last-child{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    user-select: none;
+    background-color: transparent;
+}
+.decoration>img:first-child{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1500px;
+
+    user-select: none;
+    background-color: transparent;
 }
