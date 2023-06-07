@@ -29,6 +29,7 @@ body, *{
     position: relative;
     background-color: transparent;
 } 
+
 .navbar>a::before {
       content: '';
       position: absolute;
@@ -50,6 +51,7 @@ body, *{
     transform: scaleX(1);
     background-color: transparent;
   }
+
 .logo /*Droid Logo*/
 {
     width: 60px; /* Adjust the width and height as needed */
@@ -67,6 +69,7 @@ body, *{
 
     user-select: none;
 }
+
 .logotext /*Droid*/
 {
     position: fixed;
@@ -85,6 +88,7 @@ body, *{
     color: #000000;
     background-color: transparent;
 }
+
 .navbar>:nth-child(2) /*About Us*/
 {
     position: fixed;
@@ -93,6 +97,7 @@ body, *{
     left: 34.75rem;
     top: 2.438rem;
 }
+
 .navbar>:nth-child(3) /*Contacts*/
 {
     position: fixed;
@@ -101,6 +106,7 @@ body, *{
     left: 50.188rem;
     top: 2.438rem;
 }
+
 .navbar>:nth-child(4) /*Products*/
 {
     position: fixed;
@@ -109,6 +115,7 @@ body, *{
     left: 65.625rem;
     top: 2.438rem;
 }
+
 .socialmedias{
     box-sizing: border-box;
 
@@ -124,175 +131,21 @@ body, *{
 
     border-radius: 31px;
 }
+
 .facebook{
     position: fixed;
     height: 32px;
     left: 100px;
     top: 13px;
 }
+
 .instagram{
     position: fixed;
     height: 32px;
     left: 30px;
     top: 13px;
 }
-.pick-field{
-    position: fixed;
-    font-family: 'Poppins', sans-serif;
-    width: 296px;
-    height: 72px;
-    left: 814px;
-    top: 151px;
 
-    font-size: 52px;
-}
-#block{
-    background: #EEFCFF;
-    border: 1px solid rgba(7, 191, 237, 0.01);
-    backdrop-filter: blur(0.8px);
-
-    border-radius: 40px;
-}
-.medicine-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 245px;
-    top: 223px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-.medicine-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.medicine-block>img{
-    background-color: transparent;
-
-    width: 257px;
-    height: 234px;
-
-    position: fixed;
-    top: 40px;
-}
-.education-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 1143px;
-    top: 223px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-
-}
-.education-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.education-block>img{
-    background-color: transparent;
-
-    width: 246.5px;
-    height: 253px;
-
-    position: fixed;
-    top: 30px;
-}
-.tourism-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 245px;
-    top: 583px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-
-}
-.tourism-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.tourism-block>img{
-    background-color: transparent;
-
-    width: 249.5px;
-    height: 249px;
-
-    position: fixed;
-    top: 20px;
-}
-.custom-block{
-    position: fixed;
-    width: 532px;
-    height: 332px;
-    left: 1143px;
-    top: 583px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-.custom-block>h1{
-    background-color: transparent;
-    position: fixed;
-    top: 270px;
-}
-.custom-block>img{
-    background-color: transparent;
-
-    width: 367px;
-    height: 274px;
-
-    position: fixed;
-    top: 30px;
-
-}
-.products-decoration-left-circles{
-    position: fixed;
-    left: 0;
-    bottom: -10px;
-
-    background-color: transparent;
-    user-select: none;
-    background: none;
-}
-.medicine-link{
-    color:#000000;
-}
-.products-decoration-right-circles{
-    position: fixed;
-    right: 0;
-    top: -10px;
-    
-    background: none;
-    background-color: transparent;
-    user-select: none;
-}
-.wavy-line-left{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 240px;
-
-    user-select: none;
-}
 #sunny{
 
 position: absolute;
@@ -319,7 +172,6 @@ background: none;
 }
 
 .sunny-product{
-
 position: absolute;
 width: 740px;
 height: 440px;
@@ -348,6 +200,7 @@ line-height: 150px;
 
 color: #000000;
 }
+
 p{
 position: absolute;
 width: 739px;
@@ -364,6 +217,7 @@ line-height: 36px;
 color: #000000;
 background: none;
 }
+
 .sunny-decoration{
     position: fixed;
     width: 500px;
