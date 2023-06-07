@@ -168,15 +168,11 @@ body, *{
     left: 78px;
     top: 268px;
     
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 70px;
     line-height: 105px;
 }
 .clear{
-    font-family: 'Poppins', sans-serif;
-    
     color : transparent;
     -webkit-text-stroke: 1px #005E6A; 
 }
@@ -200,7 +196,6 @@ body, *{
     border-radius: 38px;
     border: 6px solid #00B2C8;
 
-    /*Text style*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,4 +217,6 @@ body, *{
     top: 123px;
     filter: brightness(130%);
     background-color: transparent;
+
+    user-select: none;
 }
