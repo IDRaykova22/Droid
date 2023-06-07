@@ -15,7 +15,7 @@
 <p align="center"><b>What would you choose?</b></p>
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
+    <img src="https://cdn.discordapp.com/attachments/1103246649075171390/1116130271583031347/line-light.jpg"/>
 </p>
 
 ## 🗂️ Our Tech Stack
@@ -28,6 +28,7 @@
 ### Used tools for our visual elements:
 <p align="left">
     <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/344/figma--v1.png" alt="Figma logo" width=48px/></a>
+    <a href="https://www.adobe.com/bg/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png" alt="PhotoShop logo" width=48px/></a>
 </p>
 
 ### Used technologies for our project development:
@@ -43,8 +44,7 @@
 </p>
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112430023123015/line-dark.png#gh-dark-mode-only"/>
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
+    <img src="https://cdn.discordapp.com/attachments/1103246649075171390/1116130271583031347/line-light.jpg"/>
 </p>
 
 ## 📄 Documents
@@ -56,7 +56,7 @@
   - [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/idraykova22_codingburgas_bg/ERnAzW2LUglMi699iuL9YzgB-Z7nMCCu6oNCPKxkEOvO1Q?e=Z9x5LZ&nav=eyJzSWQiOjI1NiwiY0lkIjowfQ)
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
+    <img src="https://cdn.discordapp.com/attachments/1103246649075171390/1116130271583031347/line-light.jpg"/>
 </p>
 
 ## 💾 Installation
@@ -66,7 +66,7 @@ Here's the link for you:
 <pre>https://github.com/IDRaykova22/Droid</pre>
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
+    <img src="https://cdn.discordapp.com/attachments/1103246649075171390/1116130271583031347/line-light.jpg"/>
 </p>
 
 ## 👥 Our Team
@@ -77,9 +77,8 @@ Here's the link for you:
 - <a href = "https://github.com/niribareva22">Natali Ribareva</a> (Designer)
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112430023123015/line-dark.png#gh-dark-mode-only"/>
-    <img src="https://cdn.discordapp.com/attachments/884052584762077245/1090112461216157726/line-light.png#gh-light-mode-only"/>
+    <img src="https://cdn.discordapp.com/attachments/1103246649075171390/1116130271583031347/line-light.jpg"/>
 </p>
 
-## <p align="center">If you like our project, you can show it by giving us a star!</p>
+## <p align="center">If you like our project, you can show it by giving us a ⭐!</p>
 
