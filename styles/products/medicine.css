@@ -3,66 +3,79 @@ body, *{
     background-color: #F0F0F0;
     font-family: 'Poppins', sans-serif;
 }
+
+
 ::selection{
     background-color: black;
     color: white;
 }
+
+
 .navbar{
     box-sizing: border-box;
 
-    position: sticky;
+    position: absolute;
     height: 129px;
     width: 98%;
     left: 1px;
     top: 0px;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3.2px);
 }
+
+
 .navbar>a{
     font-style: normal;
     font-weight: 400;
     font-size: 37px;
-    white-space: nowrap; /*Da sedqt na edin red*/
+    white-space: nowrap; /*da sa na edin red*/
     line-height: 67px;
     text-decoration: none;
     color: #000000;
-    
-    position: sticky;
-    background-color: transparent;
-} 
-.navbar>a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.19860973187686196vh;
-    border-radius: 0.3972194637537239vh;
-    background-color: #18272F;
-    bottom: 0.9930486593843099vh;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
 
-  .navbar>a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
+    position: relative;
+} 
+
+
+.navbar>a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: #18272F;
+        bottom: 10px;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
 }
+
+.navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
 .logo /*Droid Logo*/
 {
-    width: 60px; /* Adjust the width and height as needed */
+    width: 60px; 
     height: 55px;
-    background-color: transparent;
     border-radius: 50%;
     object-fit: cover;
     border: none;
     transform: rotate(180deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     position: absolute;
     left: 3.2rem;
     top: 2.8rem;
 
-    user-select: none;
+    background-color: transparent;
 }
+
+
 .logotext /*Droid*/
 {
     position: absolute;
@@ -70,17 +83,18 @@ body, *{
     height: 46px;
     left: 8.688rem;
     top: 2.8rem;
-    
+
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 46px;
 
     user-select: none;    
-    
+
     color: #000000;
-    background-color: transparent;
 }
+
+
 .navbar>:nth-child(2) /*About Us*/
 {
     position: absolute;
@@ -89,6 +103,8 @@ body, *{
     left: 34.75rem;
     top: 2.438rem;
 }
+
+
 .navbar>:nth-child(3) /*Contacts*/
 {
     position: absolute;
@@ -97,18 +113,21 @@ body, *{
     left: 50.188rem;
     top: 2.438rem;
 }
+
+
 .navbar>:nth-child(4) /*Products*/
 {
-    position: sticky;
+    position: absolute;
     width: 8.375rem;
     height: 4.188rem;
     left: 65.625rem;
     top: 2.438rem;
 }
+
+
 .socialmedias{
     box-sizing: border-box;
-
-    position: sticky;
+    position: absolute;
     width: 171px;
     height: 62px;
     left: 1597px;
@@ -120,18 +139,24 @@ body, *{
 
     border-radius: 31px;
 }
+
+
 .facebook{
-    position: sticky;
+    position: fixed;
     height: 32px;
     left: 100px;
     top: 13px;
 }
+
+
 .instagram{
-    position: sticky;
+    position: fixed;
     height: 32px;
     left: 30px;
     top: 13px;
-}
+} 
+
+
 .pick-field{
     position: fixed;
     font-family: 'Poppins', sans-serif;
@@ -142,6 +167,8 @@ body, *{
 
     font-size: 52px;
 }
+
+
 #block{
     background: #EEFCFF;
     border: 1px solid rgba(7, 191, 237, 0.01);
@@ -149,6 +176,8 @@ body, *{
 
     border-radius: 40px;
 }
+
+
 .medicine-block{
     position: fixed;
     width: 532px;
@@ -162,11 +191,15 @@ body, *{
 
     cursor: pointer;
 }
+
+
 .medicine-block>h1{
     background-color: transparent;
     position: fixed;
     top: 270px;
 }
+
+
 .medicine-block>img{
     background-color: transparent;
 
@@ -176,6 +209,8 @@ body, *{
     position: fixed;
     top: 40px;
 }
+
+
 .education-block{
     position: fixed;
     width: 532px;
@@ -190,11 +225,15 @@ body, *{
     cursor: pointer;
 
 }
+
+
 .education-block>h1{
     background-color: transparent;
     position: fixed;
     top: 270px;
 }
+
+
 .education-block>img{
     background-color: transparent;
 
@@ -204,6 +243,8 @@ body, *{
     position: fixed;
     top: 30px;
 }
+
+
 .tourism-block{
     position: fixed;
     width: 532px;
@@ -218,11 +259,15 @@ body, *{
     cursor: pointer;
 
 }
+
+
 .tourism-block>h1{
     background-color: transparent;
     position: fixed;
     top: 270px;
 }
+
+
 .tourism-block>img{
     background-color: transparent;
 
@@ -232,6 +277,8 @@ body, *{
     position: fixed;
     top: 20px;
 }
+
+
 .custom-block{
     position: fixed;
     width: 532px;
@@ -245,11 +292,15 @@ body, *{
 
     cursor: pointer;
 }
+
+
 .custom-block>h1{
     background-color: transparent;
     position: fixed;
     top: 270px;
 }
+
+
 .custom-block>img{
     background-color: transparent;
 
@@ -259,6 +310,8 @@ body, *{
     position: fixed;
     top: 30px;
 }
+
+
 .products-decoration-left-circles{
     position: fixed;
     left: 0;
@@ -268,9 +321,13 @@ body, *{
     user-select: none;
     background: none;
 }
+
+
 .medicine-link{
     color:#000000;
 }
+
+
 .products-decoration-right-circles{
     position: fixed;
     right: 0;
@@ -280,6 +337,8 @@ body, *{
     background-color: transparent;
     user-select: none;
 }
+
+
 .wavy-line-left{
     position: fixed;
     top: 0;
@@ -288,6 +347,8 @@ body, *{
 
     user-select: none;
 }
+
+
 .search-zone{
     background: linear-gradient(180deg, #00A9BF 0%, rgba(112, 185, 194, 0.9) 55.04%, rgba(217, 217, 217, 0.1) 100%);
     border: 1px solid black;
@@ -299,6 +360,8 @@ body, *{
     width: 429px;  
     height: 740px;
 }
+
+
 .search-input{
     background: #D9D9D9;
     border: 1px solid black;
@@ -310,15 +373,21 @@ body, *{
     text-align: center;
     top: 258px;
 }
+
+
 #separator{
     border: 1px solid black;
 }
+
+
 .first-separator-search{
     position: fixed;
     width: 350px;
     top: 330px;
     left: 80px;
 }
+
+
 .filter-heading{
     position: fixed;
     top: 343px;
@@ -329,12 +398,16 @@ body, *{
 
     background-color: transparent;
 }
+
+
 .filter-heading-separator{
     position: fixed;
     width: 350px;
     top: 430px;
     left: 80px;
 }
+
+
 .filters-first-option{
     background-color: transparent;
 
@@ -342,40 +415,46 @@ body, *{
     top: 495px;
     left: 80px;
 }
+
+
 .pick-type{
     position: absolute;
-width: 229px;
-height: 35px;
-left: 30px;
+    width: 229px;
+    height: 35px;
+    left: 30px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 48px;
-top: 235px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    top: 235px;
 
 
-color: black;
-background-color: transparent;
+    color: black;
+    background-color: transparent;
 
 }
+
+
 #type-option1{
-position: absolute;
-width: 20px;
-height: 46px;
-left: 50px;
-top: 275px;
+    position: absolute;
+    width: 20px;
+    height: 46px;
+    left: 50px;
+    top: 275px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
 
-color: black;
-background: transparent;
+    color: black;
+    background: transparent;
 }
+
+
 #type-option2{
     position: absolute;
     width: 20px;
@@ -392,6 +471,8 @@ background: transparent;
     color: black;
     background: transparent;
 }
+
+
 label{
     position: absolute;
     width: 251px;
@@ -408,6 +489,8 @@ label{
     color: black;
     background: transparent;
 }
+
+
 .Rehabilitation{
     position: absolute;
     width: 251px;
@@ -418,9 +501,13 @@ label{
     color: black;
     background: transparent;
 }
+
+
 .Surgical{
     top:276px;
 }
+
+
 .third-separator{
     position: absolute;
     width: 350px;
@@ -430,6 +517,8 @@ label{
 
     border: 1px solid #000000;
 }
+
+
 .support-heading{
     position: fixed;
     width: 282px;
@@ -439,6 +528,8 @@ label{
 
     background: transparent;
 }
+
+
 .fourth-separator{
     position: absolute;
     width: 350px;
@@ -447,6 +538,8 @@ label{
     top: 505px;
     
 }
+
+
 .rectangle-1{
     position: absolute;
     width: 397px;
@@ -458,6 +551,8 @@ label{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
+
+
 .RecBo{
     position: absolute;
     width: 359px;
@@ -471,6 +566,8 @@ label{
     cursor: pointer;
     user-select: none;
 }
+
+
 .title-description-recbo{
     position: absolute;
     width: 345px;
@@ -482,6 +579,8 @@ label{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
+
+
 .description-recbo{
     position: fixed;
     width: 385px;
@@ -499,9 +598,13 @@ label{
     color: #000000;
     background: none;
 }
+
+
 span{
     background: none;
 }
+
+
 .rectangle-2{
     position: fixed;
     width: 397px;
@@ -513,6 +616,8 @@ span{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
+
+
 .Speeto{
     position: fixed;
     width: 305px;
@@ -526,6 +631,8 @@ span{
     user-select: none;
     cursor: pointer;
 }
+
+
 .title-description-speeto{
     position: absolute;
     width: 345px;
@@ -537,6 +644,8 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;  
 }
+
+
 .description-speeto{
     position: fixed;
     width: 385px;
@@ -555,6 +664,8 @@ span{
     background: none;
     background: none;
 }
+
+
 .rectangle-3{
     position: absolute;
     width: 397px;
@@ -566,6 +677,8 @@ span{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
+
+
 .Nao{
     position: absolute;
     width: 419px;
@@ -579,6 +692,8 @@ span{
     user-select: none;
     cursor: pointer;
 }
+
+
 .title-description-nao{
     position: absolute;
     width: 345px;
@@ -590,6 +705,8 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
+
+
 .description-nao{
     position: absolute;
     width: 385px;
@@ -607,6 +724,8 @@ span{
     color: #000000;
     background: none;
 }
+
+
 .rectangle-4{
     position: absolute;
     width: 397px;
@@ -618,6 +737,8 @@ span{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 82px;
 }
+
+
 .Sandy{
     position: absolute;
     width: 135px;
@@ -632,6 +753,8 @@ span{
 
     user-select: none;
 }
+
+
 .title-decription-Sandy{
     position: absolute;
     width: 345px;
@@ -643,6 +766,8 @@ span{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
+
+
 .description-Sandy{
     position: absolute;
     width: 397px;
@@ -660,4 +785,90 @@ span{
     color: #000000;
     background: none;
 
+}
+
+
+.english-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 724px;
+    
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+
+.english-check>label{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 137px;
+    top: 713px;
+}
+
+
+.bulgarian-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 780px;
+    
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+
+.bulgarian-check>label{
+    position:fixed;
+    width: 157px;
+    height: 49px;
+    left: 137px;
+    top: 769px;
+}
+
+
+.russian-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 834px;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.russian-check>label{
+    position:fixed;
+    width: 157px;
+    height: 49px;
+    left: 137px;
+    top: 823px;
+}
+
+
+.turkish-check{
+    position:fixed;
+    width: 17px;
+    height: 20px;
+    left: 107px;
+    top: 890px;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.turkish-check>label{
+    position:fixed;
+    width: 157px;
+    height: 49px;
+    left: 137px;
+    top: 880px;
 }
