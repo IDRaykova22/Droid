@@ -3,11 +3,17 @@ body, *{
     background-color: #F0F0F0;
     font-family: 'Poppins', sans-serif;
 }
-::selection{
+
+::selection{ /*Kogato markirash opredelen tekst*/
     background-color: black;
     color: white;
 }
-.navbar{
+
+#no-background{
+    background-color: transparent;
+}
+
+.navbar{ /*Background-a na navbara*/
     box-sizing: border-box;
 
     position: absolute;
@@ -15,62 +21,63 @@ body, *{
     width: 98%;
     left: 1px;
     top: 0px;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3.2px);
 }
-.navbar>a{
-    font-style: normal;
+
+.navbar>a{ /*Obshto za vsichki kategorii*/
     font-weight: 400;
     font-size: 37px;
-    white-space: nowrap; /*Da sedqt na edin red*/
     line-height: 67px;
     text-decoration: none;
     color: #000000;
+    white-space: nowrap; /* Da sedqt na edin red */
     
     position: relative;
-    background-color: transparent;
 } 
+
 .navbar>a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.19860973187686196vh;
-    border-radius: 0.3972194637537239vh;
-    background-color: #18272F;
-    bottom: 0.9930486593843099vh;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      border-radius: 4px;
+      background-color: #18272F;
+      bottom: 10px;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+.navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
   }
 
-  .navbar>a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
 .logo /*Droid Logo*/
 {
-    width: 60px; /* Adjust the width and height as needed */
+    width: 86px;
     height: 55px;
-    background-color: transparent;
     border-radius: 50%;
     object-fit: cover;
     border: none;
     transform: rotate(180deg);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: transparent;
 
     position: fixed;
-    left: 3.2rem;
-    top: 2.8rem;
-
-    user-select: none;
+    left: 40px;
+    top: 38px;
 }
-.logotext /*Droid*/
+
+.logo-text /*Droid*/
 {
     position: fixed;
     width: 108px;
     height: 46px;
-    left: 8.688rem;
-    top: 2.8rem;
+    left: 139px;
+    top: 44.8px;
     
     font-style: normal;
     font-weight: 400;
@@ -80,39 +87,42 @@ body, *{
     user-select: none;    
     
     color: #000000;
-    background-color: transparent;
 }
+
 .navbar>:nth-child(2) /*About Us*/
 {
-    position: fixed;
+    position: absolute;
     width: 125px;
     height: 67px;
-    left: 34.75rem;
-    top: 2.438rem;
+    left: 556px;
+    top: 39px;
 }
+
 .navbar>:nth-child(3) /*Contacts*/
 {
-    position: fixed;
+    position: absolute;
     width: 130px;
     height: 67px;
-    left: 50.188rem;
-    top: 2.438rem;
+    left: 803px;
+    top: 39px;
 }
+
 .navbar>:nth-child(4) /*Products*/
 {
-    position: fixed;
-    width: 8.375rem;
-    height: 4.188rem;
-    left: 65.625rem;
-    top: 2.438rem;
+    position: absolute;
+    width: 134px;
+    height: 67px;
+    left: 1050px;
+    top: 39px;
 }
-.socialmedias{
+
+.socialmedias{ /*Box-a*/
     box-sizing: border-box;
 
-    position: fixed;
+    position: absolute;
     width: 171px;
     height: 62px;
-    left: 1597px;
+    left: 1497px;
     top: 39px;
 
     background: rgba(214, 214, 214, 0.33);
@@ -121,14 +131,16 @@ body, *{
 
     border-radius: 31px;
 }
+
 .facebook{
-    position: fixed;
+    position: absolute;
     height: 32px;
     left: 100px;
     top: 13px;
 }
+
 .instagram{
-    position: fixed;
+    position: absolute;
     height: 32px;
     left: 30px;
     top: 13px;

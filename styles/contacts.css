@@ -1,551 +1,453 @@
-        body, *{
-            margin:0;
-            background-color: #F0F0F0;
-            font-family: 'Poppins', sans-serif;
-        }
+body, *{
+    margin:0;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
 
+::selection{ /*Kogato markirash opredelen tekst*/
+    background-color: black;
+    color: white;
+}
 
-        ::selection{
-            background-color: black;
-            color: white;
-        }
+#no-background{
+    background-color: transparent;
+}
 
+.navbar{ /*Background-a na navbara*/
+    box-sizing: border-box;
 
-        .navbar{
-            box-sizing: border-box;
+    position: absolute;
+    height: 129px;
+    width: 98%;
+    left: 1px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3.2px);
+}
 
-            position: absolute;
-            height: 129px;
-            width: 98%;
-            left: 1px;
-            top: 0px;
-            background: rgba(255, 255, 255, 0.01);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(3.2px);
-        }
-
-
-        .navbar>a{
-            font-style: normal;
-            font-weight: 400;
-            font-size: 37px;
-            white-space: nowrap; /*da sa na edin red*/
-            line-height: 67px;
-            text-decoration: none;
-            color: #000000;
+.navbar>a{ /*Obshto za vsichki kategorii*/
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 67px;
+    text-decoration: none;
+    color: #000000;
+    white-space: nowrap; /* Da sedqt na edin red */
     
-            position: relative;
-        } 
+    position: relative;
+} 
 
-
-        .navbar>a::before {
-                content: '';
-                position: absolute;
-                width: 100%;
-                height: 2px;
-                border-radius: 4px;
-                background-color: #18272F;
-                bottom: 10px;
-                left: 0;
-                transform-origin: right;
-                transform: scaleX(0);
-                transition: transform .3s ease-in-out;
-        }
+.navbar>a::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      border-radius: 4px;
+      background-color: #18272F;
+      bottom: 10px;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
   
-        .navbar>a:hover::before {
-            transform-origin: left;
-            transform: scaleX(1);
-        }
+.navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
 
+.logo /*Droid Logo*/
+{
+    width: 86px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    transform: rotate(180deg);
+    background-color: transparent;
 
-        .logo /*Droid Logo*/
-        {
-            width: 60px; 
-            height: 55px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: none;
-            transform: rotate(180deg);
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: fixed;
+    left: 40px;
+    top: 38px;
+}
 
-            position: absolute;
-            left: 3.2rem;
-            top: 2.8rem;
-
-            background-color: transparent;
-        }
-
-
-        .logotext /*Droid*/
-        {
-            position: absolute;
-            width: 108px;
-            height: 46px;
-            left: 8.688rem;
-            top: 2.8rem;
+.logo-text /*Droid*/
+{
+    position: fixed;
+    width: 108px;
+    height: 46px;
+    left: 139px;
+    top: 44.8px;
     
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
 
-            user-select: none;    
+    user-select: none;    
     
-            color: #000000;
-        }
+    color: #000000;
+}
+
+.navbar>:nth-child(2) /*About Us*/
+{
+    position: absolute;
+    width: 125px;
+    height: 67px;
+    left: 556px;
+    top: 39px;
+}
+
+.navbar>:nth-child(3) /*Contacts*/
+{
+    position: absolute;
+    width: 130px;
+    height: 67px;
+    left: 803px;
+    top: 39px;
+}
+
+.navbar>:nth-child(4) /*Products*/
+{
+    position: absolute;
+    width: 134px;
+    height: 67px;
+    left: 1050px;
+    top: 39px;
+}
+
+.socialmedias{ /*Box-a*/
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 171px;
+    height: 62px;
+    left: 1497px;
+    top: 39px;
+
+    background: rgba(214, 214, 214, 0.33);
+    border: 2px solid #000000;
+    backdrop-filter: blur(10.2px);
+
+    border-radius: 31px;
+}
+
+.facebook{
+    position: absolute;
+    height: 32px;
+    left: 100px;
+    top: 13px;
+}
+
+.instagram{
+    position: absolute;
+    height: 32px;
+    left: 30px;
+    top: 13px;
+}
+
+.circle1{
+    position: fixed;
+    width: 93px;
+    height: 93px;
+    border-radius: 93px;
+    left: 78px;
+    top: 372px;
+
+    background: rgba(0, 209, 255, 0.85);
+}
+
+.circle2{
+    position: fixed;
+    width: 201px;
+    height: 201px;
+    border-radius: 201px;
+    left: 383px;
+    top: 454px;
+    background: rgba(0, 209, 255, 0.85);
+}
 
 
-        .navbar>:nth-child(2) /*About Us*/
-        {
-            position: absolute;
-            width: 125px;
-            height: 67px;
-            left: 34.75rem;
-            top: 2.438rem;
-        }
+.circle3{
+    position: fixed;
+    width: 147px;
+    height: 147px;
+    border-radius: 147px;
+    left: 66px;
+    top: 799px;
+    background: rgba(0, 209, 255, 0.85);
+}
 
 
-        .navbar>:nth-child(3) /*Contacts*/
-        {
-            position: absolute;
-            width: 130px;
-            height: 67px;
-            left: 50.188rem;
-            top: 2.438rem;
-        }
+.rectangle1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 360px;
+    height: 556px;
+    left: 117px;
+    top: 335px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #000000;
+    backdrop-filter: blur(38.075px);
+    border-radius: 41px;
+}
 
 
-        .navbar>:nth-child(4) /*Products*/
-        {
-            position: absolute;
-            width: 8.375rem;
-            height: 4.188rem;
-            left: 65.625rem;
-            top: 2.438rem;
-        }
+.circle_rectangle1{
+    box-sizing: border-box;
+    position: fixed;
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    left: 211px;
+    top: 368px;
+    border: 3px solid #167FBA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(3.4px);
+}
 
 
-        .socialmedias{
-            box-sizing: border-box;
-            position: absolute;
-            width: 171px;
-            height: 62px;
-            left: 1597px;
-            top: 39px;
-
-            background: rgba(214, 214, 214, 0.33);
-            border: 2px solid #000000;
-            backdrop-filter: blur(10.2px);
-
-            border-radius: 31px;
-        }
-
-
-        .facebook{
-            position: fixed;
-            height: 32px;
-            left: 100px;
-            top: 13px;
-        }
+.address{
+    position: fixed;
+    width: 205px;
+    height: 50px;
+    left: 240px;
+    top: 540px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    background: none;
+    color: #000000;
+}
 
 
-        .instagram{
-            position: fixed;
-            height: 32px;
-            left: 30px;
-            top: 13px;
-        }  
+.address_live{
+    position: fixed;
+    width: 278px;
+    height: 54px;
+    left: 175px;
+    top: 613px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    background: none;
+    color: #000000;
+}
 
 
-        .circle1{
-            position: fixed;
-            width: 93px;
-            height: 93px;
-            border-radius: 93px;
-            left: 78px;
-            top: 372px;
-        
-            background: rgba(0, 209, 255, 0.85);
-        }
-        
-        
-        
-        .circle2{
-            position: fixed;
-            width: 201px;
-            height: 201px;
-            border-radius: 201px;
-            left: 383px;
-            top: 454px;
+.circle4{
+    position: fixed;
+    width: 205px;
+    height: 205px;
+    border-radius: 205px;
+    left: 682px;
+    top: 125px;
+    background: #0096AA;
+}
 
-            background: rgba(0, 209, 255, 0.85);
-        }
-        
-        
-        .circle3{
-            position: fixed;
-            width: 147px;
-            height: 147px;
-            border-radius: 147px;
-            left: 66px;
-            top: 799px;
 
-            background: rgba(0, 209, 255, 0.85);
-        }
-        
-        
-        .rectangle1{
-            box-sizing: border-box;
-            position: absolute;
-            width: 360px;
-            height: 556px;
-            left: 117px;
-            top: 335px;
+.circle5{
+  position: fixed;
+  width: 176px;
+  height: 176px;
+  border-radius: 176px;
+  left: 1014px;
+  top: 502px;
+  background: #0096AA;  
+}
 
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid #000000;
-            backdrop-filter: blur(38.075px);
 
-            border-radius: 41px;
-        }
-        
-        
-        .circle_rectangle1{
-            box-sizing: border-box;
-            position: fixed;
-            width: 172px;
-            height: 172px;
-            border-radius: 172px;
-            left: 211px;
-            top: 368px;
+.circle6{
+    position: fixed;
+    width: 133px;
+    height: 126px;
+    border-radius: 126px;
+    left: 721px;
+    top: 574px;
+    background: #0096AA;
+}
 
-            border: 3px solid #167FBA;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            backdrop-filter: blur(3.4px);
-        }
-        
-        
-        .address{
-            position: fixed;
-            width: 205px;
-            height: 50px;
-            left: 240px;
-            top: 540px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
 
-            background: none;
-            color: #000000;
-        }
-        
-        
-        .address_live{
-            position: fixed;
-            width: 278px;
-            height: 54px;
-            left: 175px;
-            top: 613px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
+.rectangle2{
+    box-sizing: border-box;
+    position: fixed;
+    width: 360px;
+    height: 556px;
+    left: 771px;
+    top: 176px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #000000;
+    backdrop-filter: blur(38.075px);
+    border-radius: 41px;
+}
 
-            background: none;
-            color: #000000;
-       }
-       
-       
-        .circle4{
-            position: fixed;
-            width: 205px;
-            height: 205px;
-            border-radius: 205px;
-            left: 682px;
-            top: 125px;
 
-            background: #0096AA;
-        }
-        
-        
-        .circle5{
-          position: fixed;
-          width: 176px;
-          height: 176px;
-          border-radius: 176px;
-          left: 1014px;
-          top: 502px;
+.circle_rectangle2{
+    box-sizing: border-box;
+    position: fixed;
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    left: 865px;
+    top: 209px;
+    border: 3px solid #167FBA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(3.4px);
+}
 
-          background: #0096AA;  
-        }
-        
-        
-        .circle6{
-            position: fixed;
-            width: 133px;
-            height: 126px;
-            border-radius: 126px;
-            left: 721px;
-            top: 574px;
 
-            background: #0096AA;
-        }
-        
-        
-        .rectangle2{
-            box-sizing: border-box;
-            position: fixed;
-            width: 360px;
-            height: 556px;
-            left: 771px;
-            top: 176px;
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid #000000;
-            backdrop-filter: blur(38.075px);
+.E-mail{
+    position: fixed;
+    width: 144px;
+    height: 50px;
+    left: 905px;
+    top: 381px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    background: none;
+    color: #000000;
+}
 
-            border-radius: 41px;
-        }
-        
-        
-        .circle_rectangle2{
-            box-sizing: border-box;
-            position: fixed;
-            width: 172px;
-            height: 172px;
-            border-radius: 172px;
-            left: 865px;
-            top: 209px;
-            border: 3px solid #167FBA;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            backdrop-filter: blur(3.4px);
-        }
-        
-        
-        .E-mail{
-            position: fixed;
-            width: 144px;
-            height: 50px;
-            left: 905px;
-            top: 381px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
 
-            background: none;
-            color: #000000;
-        }
-        
-        
-        .E-mail_address{
-            position: fixed;
-            width: 260px;
-            height: 25px;
-            left: 870px;
-            top: 451px;
-            font-style: normal;
-            font-weight: 350;
-            font-size: 22px;
-            line-height: 33px;
+.E-mail_address{
+    position: fixed;
+    width: 260px;
+    height: 25px;
+    left: 870px;
+    top: 451px;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 22px;
+    line-height: 33px;
+    background: none;
+    color: #000000;
+}
 
-            background: none;
-            color: #000000;
-        }
-        
-        
-        .circle7{
-        position: fixed;
-        width: 116px;
-        height: 116px;
-        border-radius: 116px;
-        left: 1729px;
-        top: 444px;
 
-        background: #00BCD4;
-        }
-        
-        
-        .circle8{
-            position: fixed;
-            width: 209px;
-            height: 209px;
-            border-radius: 209px;
-            left: 1368px;
-            top: 502px;
+.circle7{
+    position: fixed;
+    width: 116px;
+    height: 116px;
+    border-radius: 116px;
+    left: 1729px;
+    top: 444px;
+    background: #00BCD4;
+}
 
-            background: #00BCD4;
-        }
-        
-        
-        .circle9{
-            position: fixed;
-            width: 176px;
-            height: 176px;
-            border-radius: 176px;
-            left: 1729px;
-            top: 785px;
 
-            background: #00BCD4;
-        }
-        
-        
-        .rectangle3{
-            box-sizing: border-box;
-            position: fixed;
-            width: 360px;
-            height: 556px;
-            left: 1448px;
-            top: 335px;
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid #000000;
-            backdrop-filter: blur(38.075px);
+.circle8{
+    position: fixed;
+    width: 209px;
+    height: 209px;
+    border-radius: 209px;
+    left: 1368px;
+    top: 502px;
+    background: #00BCD4;
+}
 
-            border-radius: 41px;
-        }
-        
-        
-        .circle_rectangle3{
-            box-sizing: border-box;
-            position: fixed;
-            width: 172px;
-            height: 172px;
-            border-radius: 172px;
-            left: 1542px;
-            top: 368px;
 
-            border: 3px solid #167FBA;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            backdrop-filter: blur(3.4px);
-        }
-        
-        
-        .Phone{
-            position: fixed;
-            width: 117px;
-            height: 50px;
-            left: 1590px;
-            top: 540px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
+.circle9{
+    position: fixed;
+    width: 176px;
+    height: 176px;
+    border-radius: 176px;
+    left: 1729px;
+    top: 785px;
+    background: #00BCD4;
+}
 
-            background: none;
-            color: #000000;
-        }
-        
-        
-        .phone_number{
-            position: fixed;
-            width: 169px;
-            height: 40px;
-            left: 1575px;
-            top: 613px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 33px;
 
-            background: none;
-            color: #000000;
+.rectangle3{
+    box-sizing: border-box;
+    position: fixed;
+    width: 360px;
+    height: 556px;
+    left: 1448px;
+    top: 335px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #000000;
+    backdrop-filter: blur(38.075px);
+    border-radius: 41px;
+}
 
-        }
-        
-        
-        .circle10{
-            position: fixed;
-            width: 67px;
-            height: 67px;
-            border-radius:67px;
-            left: 851px;
-            top: 839px;
 
-            background: rgba(69, 178, 225, 0.85);
-            transform: matrix(-1, 0, 0, 1, 0, 0);
-        }
-        
-        
-        .circle11{
-            position: fixed;
-            width: 54px;
-            height: 54px;
-            border-radius: 54px;
-            left: 1024px;
-            top: 889px;
+.circle_rectangle3{
+    box-sizing: border-box;
+    position: fixed;
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    left: 1542px;
+    top: 368px;
+    border: 3px solid #167FBA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(3.4px);
+}
 
-            background: rgba(0, 169, 191, 0.49);
-        }
-        
-        
-        .rectangle4{
-            box-sizing: border-box;
-            position: fixed;
-            width: 303px;
-            height: 79px;
-            left: 799px;
-            top: 851px;
 
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid #000000;
-            backdrop-filter: blur(22.5px);
-            border-radius: 22px;
-        }
-        
-        
-        .ContactUs{
-            position: fixed;
-            width: 200px;
-            height: 37px;
-            left: 865px;
-            top: 866px;
+.Phone{
+    position: fixed;
+    width: 117px;
+    height: 50px;
+    left: 1590px;
+    top: 540px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    background: none;
+    color: #000000;
+}
 
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 54px;
 
-           color: #000000;
-           background: none;
-        }
-        
-        
-        span{
-            background: none;
-        }
-        
-        
-        .pin{
-            position: fixed;
-            width: 106px;
-            height: 106px;
-            left: 244px;
-            top: 401px;
+.phone_number{
+    position: fixed;
+    width: 169px;
+    height: 40px;
+    left: 1575px;
+    top: 613px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    background: none;
+    color: #000000;
+}
 
-            filter: brightness(130%);
-            background: none;
-        }
-        
-        
-        .mail{
-            position: fixed;
-            width: 106px;
-            height: 106px;
-            left: 898px;
-            top: 242px;
+span{
+    background: none;
+}
 
-            filter: brightness(130%);
-            background: none;
-        }
-        
-        
-        .phone{
-            position: fixed;
-            width: 106px;
-            height: 106px;
-            left: 1575px;
-            top: 401px;
+.pin{
+    position: fixed;
+    width: 106px;
+    height: 106px;
+    left: 244px;
+    top: 401px;
+    filter: brightness(130%);
+    background: none;
+}
 
-            filter: brightness(130%);
-            background: none;
-        }
+.mail{
+    position: fixed;
+    width: 106px;
+    height: 106px;
+    left: 898px;
+    top: 242px;
+    filter: brightness(130%);
+    background: none;
+}
+
+.phone{
+    position: fixed;
+    width: 106px;
+    height: 106px;
+    left: 1575px;
+    top: 401px;
+    filter: brightness(130%);
+    background: none;
+}
