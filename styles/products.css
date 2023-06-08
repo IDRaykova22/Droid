@@ -3,147 +3,158 @@ body, *{
     background-color: #F0F0F0;
     font-family: 'Poppins', sans-serif;
 }
-
-::selection{ /*Kogato markirash opredelen tekst*/
+::selection{
     background-color: black;
     color: white;
 }
 
-#no-background{
-    background-color: transparent;
-}
+/*Scroll*/
 
-.navbar{ /*Background-a na navbara*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+  }
+
+.navbar{
     box-sizing: border-box;
 
     position: absolute;
-    height: 129px;
+    height: 12.810327706057597vh;
     width: 98%;
-    left: 1px;
-    top: 0px;
+    left: 0.09930486593843098vh;
+    top: 0vh;
     background: rgba(255, 255, 255, 0.01);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(3.2px);
+    backdrop-filter: blur(0.31777557100297915vh);
 }
-
-.navbar>a{ /*Obshto za vsichki kategorii*/
+.navbar > a {
+    font-style: normal;
     font-weight: 400;
-    font-size: 37px;
-    line-height: 67px;
+    font-size: 3.669415938919237vh; /* 37px */
+    white-space: nowrap; /* Da sedqt na edin red */
+    line-height: 6.648619472678868vh; /* 67px */
     text-decoration: none;
     color: #000000;
-    white-space: nowrap; /* Da sedqt na edin red */
-    
-    position: relative;
-} 
 
+    position: relative;
+}
 .navbar>a::before {
       content: '';
       position: absolute;
       width: 100%;
-      height: 2px;
-      border-radius: 4px;
+      height: 0.19860973187686196vh;
+      border-radius: 0.3972194637537239vh;
       background-color: #18272F;
-      bottom: 10px;
+      bottom: 0.9930486593843099vh;
       left: 0;
       transform-origin: right;
       transform: scaleX(0);
       transition: transform .3s ease-in-out;
     }
   
-.navbar>a:hover::before {
+    .navbar>a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
   }
-
 .logo /*Droid Logo*/
 {
-    width: 86px;
-    height: 55px;
+    width: 5.958291956305859vh;
+    height: 5.461767626613704vh;
+    background-color: transparent;
     border-radius: 50%;
     object-fit: cover;
     border: none;
     transform: rotate(180deg);
-    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    position: fixed;
-    left: 40px;
-    top: 38px;
+    position: absolute;
+    left: 5.084409136047666vh;
+    top: 4.448857994041708vh;
+
+    user-select: none;
 }
-
-.logo-text /*Droid*/
+.logotext /*Droid*/
 {
-    position: fixed;
-    width: 108px;
-    height: 46px;
-    left: 139px;
-    top: 44.8px;
+    position: absolute;
+    width: 10.724925521350546vh;
+    height: 4.568023833167826vh;
+    left: 13.804170804369415vh;
+    top: 4.448857994041708vh;
     
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 3.5749751737835154vh;
+    line-height: 4.568023833167826vh;
 
     user-select: none;    
     
     color: #000000;
 }
-
 .navbar>:nth-child(2) /*About Us*/
 {
     position: absolute;
     width: 125px;
     height: 67px;
-    left: 556px;
-    top: 39px;
+    left: 34.75rem;
+    top: 2.438rem;
 }
-
 .navbar>:nth-child(3) /*Contacts*/
 {
     position: absolute;
     width: 130px;
     height: 67px;
-    left: 803px;
-    top: 39px;
+    left: 50.188rem;
+    top: 2.438rem;
 }
-
 .navbar>:nth-child(4) /*Products*/
 {
     position: absolute;
-    width: 134px;
-    height: 67px;
-    left: 1050px;
-    top: 39px;
+    width: 8.375rem;
+    height: 4.188rem;
+    left: 65.625rem;
+    top: 2.438rem;
 }
-
-.socialmedias{ /*Box-a*/
+.socialmedias{
     box-sizing: border-box;
 
     position: absolute;
-    width: 171px;
-    height: 62px;
-    left: 1497px;
-    top: 39px;
+    width: 17.185929648241206vh;
+    height: 6.231155778894473vh;
+    left: 160.50251256281408vh;
+    top: 3.919597989949749vh;
 
     background: rgba(214, 214, 214, 0.33);
     border: 2px solid #000000;
-    backdrop-filter: blur(10.2px);
+    backdrop-filter: blur(1.0251256281407033vh);
 
     border-radius: 31px;
 }
-
 .facebook{
     position: absolute;
-    height: 32px;
-    left: 100px;
-    top: 13px;
+    height: 3.2160804020100504vh;
+    left: 10.050251256281408vh;
+    top: 1.306532663316583vh;
 }
-
 .instagram{
     position: absolute;
-    height: 32px;
-    left: 30px;
-    top: 13px;
+    height: 3.2160804020100504vh;
+    left: 3.0150753768844223vh;
+    top: 1.306532663316583vh;
 }
 .pick-field{
     position: fixed;

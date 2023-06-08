@@ -1,0 +1,353 @@
+body, *{
+    margin:0;
+    background-color: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 129px;
+    width: 98%;
+    left: 1px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3.2px);
+}
+
+.navbar>a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    white-space: nowrap; /*da sa na edin red*/
+    line-height: 67px;
+    text-decoration: none;
+    color: #000000;
+
+    position: relative;
+} 
+
+.navbar>a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: #18272F;
+        bottom: 10px;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+}
+
+.navbar>a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.logo /*Droid Logo*/
+{
+    width: 60px; 
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    transform: rotate(180deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    position: absolute;
+    left: 3.2rem;
+    top: 2.8rem;
+
+    background-color: transparent;
+}
+
+.logotext /*Droid*/
+{
+    position: absolute;
+    width: 108px;
+    height: 46px;
+    left: 8.688rem;
+    top: 2.8rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+
+    user-select: none;    
+
+    color: #000000;
+    background-color: transparent;
+}
+
+.navbar>:nth-child(2) /*About Us*/
+{
+    position: absolute;
+    width: 125px;
+    height: 67px;
+    left: 34.75rem;
+    top: 2.438rem;
+
+    background-color: transparent;
+}
+
+.navbar>:nth-child(3) /*Contacts*/
+{
+    position: absolute;
+    width: 130px;
+    height: 67px;
+    left: 50.188rem;
+    top: 2.438rem;
+    
+    background-color: transparent;
+}
+
+.navbar>:nth-child(4) /*Products*/
+{
+    position: absolute;
+    width: 8.375rem;
+    height: 4.188rem;
+    left: 65.625rem;
+    top: 2.438rem;
+
+    background-color: transparent;
+}
+
+.socialmedias{
+    box-sizing: border-box;
+    position: absolute;
+    width: 171px;
+    height: 62px;
+    left: 1597px;
+    top: 39px;
+
+    background: rgba(214, 214, 214, 0.33);
+    border: 2px solid #000000;
+    backdrop-filter: blur(10.2px);
+
+    border-radius: 31px;
+}
+
+.facebook{
+    position: fixed;
+    height: 32px;
+    left: 100px;
+    top: 13px;
+
+    background-color: transparent;
+}
+
+.instagram{
+    position: fixed;
+    height: 32px;
+    left: 30px;
+    top: 13px;
+
+    background-color: transparent;
+} 
+.our-team{
+    position: absolute;
+    width: 311px;
+    height: 96px;
+    left: 765px;
+    top: 200px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+
+
+    color: #EFFAFB;
+
+}
+.decoration-1{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 68px;
+    top: 181px;
+    
+    background: #00A9BF;
+    border-radius: 30px;
+ 
+}
+.scrum-trainer{
+    position: absolute;
+    width: 210px;
+    height: 269.41px;
+    left: 45px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.scrum-trainer-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 85px;
+    top: 495px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-2{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 408px;
+    top: 501px;
+    
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.designer{
+    position: absolute;
+    width: 220px;
+    height: 264.78px;
+    left: 40px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.designer-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 427px;
+    top: 810px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-3{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 772px;
+    top: 340px;
+    
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.mentor{
+    position: absolute;
+    width: 210px;
+    height: 262.5px;
+    left: 44px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.mentor-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 816px;
+    top: 650px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-4{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 1133px;
+    top: 501px;
+
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.front-end-developer-1{
+    position: absolute;
+    width: 210px;
+    height: 271px;
+    left: 45px;
+    top: 30px;
+
+    background: url(image.png);
+    border-radius: 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.front-end-developer-1-description{
+    position: absolute;
+    width: 265px;
+    height: 30px;
+    left: 1175px;
+    top: 799px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-5{
+    position: absolute;
+    width: 298px;
+    height: 365px;
+    left: 1470px;
+    top: 175px;
+
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.front-end-developer-2{
+    position: absolute;
+    width: 220px;
+    height: 261px;
+    left: 40px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.front-end-developer-2-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 1515px;
+    top: 471px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
