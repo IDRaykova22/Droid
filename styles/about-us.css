@@ -301,3 +301,203 @@ q {
     letter-spacing: 0.002970002067650354vh;
     background-color: transparent;
     }
+
+.our-team{
+    position: absolute;
+    width: 311px;
+    height: 96px;
+    left: 765px;
+    top: 1800px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    background: none;
+
+
+    color: #000000;
+
+}
+.decoration-1{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 68px;
+    top: 1940px;
+    
+    background: #00A9BF;
+    border-radius: 30px;
+    
+}
+.scrum-trainer{
+    position: absolute;
+    width: 210px;
+    height: 269.41px;
+    left: 45px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.scrum-trainer-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 85px;
+    top: 2250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-2{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 408px;
+    top: 2090px;
+    
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.designer{
+    position: absolute;
+    width: 220px;
+    height: 264.78px;
+    left: 40px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.designer-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 430px;
+    top: 2400px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-3{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 750px;
+    top: 1940px;
+    
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.mentor{
+    position: absolute;
+    width: 210px;
+    height: 262.5px;
+    left: 44px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.mentor-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 800px;
+    top: 2250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-4{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 1088px;
+    top: 2090px;
+
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.front-end-developer-1{
+    position: absolute;
+    width: 210px;
+    height: 271px;
+    left: 45px;
+    top: 30px;
+
+    background: url(image.png);
+    border-radius: 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.front-end-developer-1-description{
+    position: absolute;
+    width: 265px;
+    height: 30px;
+    left: 1110px;
+    top: 2390px;;
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
+.decoration-5{
+    position: absolute;
+    width: 298px;
+    height: 371px;
+    left: 1430px;
+    top: 1940px;
+
+    background: #00A9BF;
+    border-radius: 30px;
+}
+.front-end-developer-2{
+    position: absolute;
+    width: 220px;
+    height: 261px;
+    left: 40px;
+    top: 30px;
+
+    border-radius: 30px;
+}
+.front-end-developer-2-description{
+    position: absolute;
+    width: 271px;
+    height: 30px;
+    left: 1450px;
+    top: 2240px;
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    background: transparent;
+}
