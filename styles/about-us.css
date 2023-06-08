@@ -215,7 +215,7 @@ body, *{
 }
 .background {
     position: absolute;
-    width: 100%;
+    width: 99%;
     height: 363.0596292172044vh;
     left: 0%;
     top: 84.70778836930368vh;
@@ -224,7 +224,7 @@ body, *{
 
 .separator {
     position: absolute;
-    width: 100%;
+    width: 99%;
     height: 0%;
     left: 0%;
     top: 103.58614666038323vh;

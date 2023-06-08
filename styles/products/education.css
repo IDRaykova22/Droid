@@ -617,7 +617,8 @@ span{
     position: fixed;
     top: 0;
     left: 0;
-    width: 1500px;
+    height: 1100;
+    width: 1900px;
 
     user-select: none;
     background-color: transparent;
