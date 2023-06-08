@@ -25,10 +25,10 @@ body, *{
     line-height: 67px;
     text-decoration: none;
     color: #000000;
-    
+   
     position: relative;
     background-color: transparent;
-} 
+}
 
 .navbar>a::before {
       content: '';
@@ -45,7 +45,7 @@ body, *{
 
       background-color: transparent;
     }
-  
+ 
     .navbar>a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
@@ -77,14 +77,14 @@ body, *{
     height: 46px;
     left: 8.688rem;
     top: 2.8rem;
-    
+   
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 46px;
 
     user-select: none;    
-    
+   
     color: #000000;
     background-color: transparent;
 }
@@ -215,7 +215,7 @@ background: none;
 }
 
 .sunny-decoration-right{
-    position: fixed;
+    position: absolute;
     width: 500px;
     height: 400px;
     left: 1420px;
